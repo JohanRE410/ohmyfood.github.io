@@ -1,0 +1,19 @@
+{
+  "name": "ohmyfood.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css --style expanded"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohanRE410/ohmyfood.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohanRE410/ohmyfood.github.io/issues"
+  },
+  "homepage": "https://github.com/JohanRE410/ohmyfood.github.io#readme",
+  "description": ""
+}
