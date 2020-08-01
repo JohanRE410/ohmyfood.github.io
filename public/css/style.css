@@ -65,7 +65,7 @@ body {
 
 .logo {
   background: #579c87;
-  height: 10rem;
+  height: 15rem;
   align-items: center;
   display: flex;
   width: 100%;
@@ -76,6 +76,12 @@ body {
   font-size: 7rem;
   font-family: "Meera Inimai", sans-serif;
   letter-spacing: -0.6rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin: 3rem;
 }
 
 /*# sourceMappingURL=style.css.map */
