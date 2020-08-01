@@ -1,0 +1,14 @@
+.logo {
+    background: $colour-secondary;
+    height: 10rem;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    &__titre {
+        color: $colour-primary;
+        font-size: 7rem;
+        font-family: "Meera Inimai", sans-serif;
+        letter-spacing: -0.6rem;
+    }
+}

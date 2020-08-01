@@ -4,7 +4,7 @@
   font-style: normal;
   font-weight: 400;
   src: url('./public/font/ma-shan-zheng-v5-latin-regular.eot'); /* IE9 Compat Modes */
-  src: local('Ma Shan Zheng Regular'), local('MaShanZheng-Regular'),
+  src: local('Ma Shan Zheng'), local('MaShanZheng-Regular'),
        url('./public/font/ma-shan-zheng-v5-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('./public/font/ma-shan-zheng-v5-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
        url('./public/font/ma-shan-zheng-v5-latin-regular.woff') format('woff'), /* Modern Browsers */
@@ -30,7 +30,7 @@
   font-style: normal;
   font-weight: 400;
   src: url('./public/font/dancing-script-v15-latin-regular.eot'); /* IE9 Compat Modes */
-  src: local(''),
+  src: local('Dancing Script'), local('DancingScript-Regular'),
        url('./public/font/dancing-script-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('./public/font/dancing-script-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
        url('./public/font/dancing-script-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
@@ -75,4 +75,17 @@
        url('./public/font/Segoe-Print-v1-latin-regular.woff') format('woff'), /* Modern Browsers */
        url('./public/font/Segoe-Print-v1-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
        url('./public/font/Segoe-Print-v1-latin-regular.svg#AbrilFatface') format('svg'); /* Legacy iOS */
+}
+/* meera-inimai-regular - latin */
+@font-face {
+  font-family: 'Meera Inimai';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./public/font/meera-inimai-v5-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Meera Inimai'), local('MeeraInimai-Regular'),
+       url('./public/font/meera-inimai-v5-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./public/font/meera-inimai-v5-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./public/font/meera-inimai-v5-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('./public/font/meera-inimai-v5-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./public/font/meera-inimai-v5-latin-regular.svg#MeeraInimai') format('svg'); /* Legacy iOS */
 }
