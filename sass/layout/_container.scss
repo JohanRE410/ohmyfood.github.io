@@ -3,3 +3,12 @@
     justify-content: space-around;
     margin: $margin-bloc;
 }
+
+.menu {
+    @include main-shadow($colour-secondary);
+    @include bloc-size;
+    text-align: center;
+    &--menu1 {
+        background: $colour-bloc1;
+    }
+}

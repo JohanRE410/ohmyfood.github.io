@@ -57,6 +57,20 @@ body {
   src: url("./public/font/meera-inimai-v5-latin-regular.eot");
   src: local("Meera Inimai"), local("MeeraInimai-Regular"), url("./public/font/meera-inimai-v5-latin-regular.eot?#iefix") format("embedded-opentype"), url("./public/font/meera-inimai-v5-latin-regular.woff2") format("woff2"), url("./public/font/meera-inimai-v5-latin-regular.woff") format("woff"), url("./public/font/meera-inimai-v5-latin-regular.ttf") format("truetype"), url("./public/font/meera-inimai-v5-latin-regular.svg#MeeraInimai") format("svg");
 }
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./public/font/montserrat-v14-latin-regular.eot");
+  src: local("Montserrat Regular"), local("Montserrat-Regular"), url("./public/font/montserrat-v14-latin-regular.eot?#iefix") format("embedded-opentype"), url("./public/font/montserrat-v14-latin-regular.woff2") format("woff2"), url("./public/font/montserrat-v14-latin-regular.woff") format("woff"), url("./public/font/montserrat-v14-latin-regular.ttf") format("truetype"), url("./public/font/montserrat-v14-latin-regular.svg#Montserrat") format("svg");
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./public/font/montserrat-v14-latin-600.eot");
+  src: local("Montserrat SemiBold"), local("Montserrat-SemiBold"), url("./public/font/montserrat-v14-latin-600.eot?#iefix") format("embedded-opentype"), url("./public/font/montserrat-v14-latin-600.woff2") format("woff2"), url("./public/font/montserrat-v14-latin-600.woff") format("woff"), url("./public/font/montserrat-v14-latin-600.ttf") format("truetype"), url("./public/font/montserrat-v14-latin-600.svg#Montserrat") format("svg");
+}
 body {
   font-family: sans-serif;
   color: #000;
@@ -73,15 +87,27 @@ body {
 }
 .logo__titre {
   color: #fdcb46;
-  font-size: 7rem;
-  font-family: "Meera Inimai", sans-serif;
-  letter-spacing: -0.6rem;
+  font-size: 8rem;
+  font-family: "Montserrat SemiBold", sans-serif;
+  letter-spacing: -0.8rem;
 }
 
 .container {
   display: flex;
   justify-content: space-around;
-  margin: 3rem;
+  margin: 1rem;
+}
+
+.menu {
+  box-shadow: 1rem 1rem 20px #579c87;
+  padding: 1rem;
+  margin: 1rem;
+  width: 90%;
+  height: 25rem;
+  text-align: center;
+}
+.menu--menu1 {
+  background: #fcdfdb;
 }
 
 /*# sourceMappingURL=style.css.map */

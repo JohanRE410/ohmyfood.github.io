@@ -1,0 +1,10 @@
+@mixin main-shadow($colour: $colour-secondary, $size: $margin-bloc) {
+    box-shadow: $margin-bloc $margin-bloc 20px $colour;
+}
+
+@mixin bloc-size {
+    padding: 1rem;
+    margin: 1rem;
+    width: 90%;
+    height: 25rem;
+}
