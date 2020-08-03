@@ -1,10 +1,9 @@
-@mixin main-shadow($colour: $colour-secondary, $size: $margin-bloc) {
-    box-shadow: $margin-bloc $margin-bloc 20px $colour;
-}
-
 @mixin bloc-size {
-    padding: 1rem;
-    margin: 1rem;
-    width: 90%;
+    box-shadow: $margin-bloc $margin-bloc 20px $colour-secondary;
+    padding: $margin-bloc;
+    margin: $margin-bloc;
     height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

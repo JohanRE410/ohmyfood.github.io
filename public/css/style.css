@@ -96,19 +96,35 @@ body {
 .container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .menu {
   box-shadow: 1rem 1rem 20px #579c87;
   padding: 1rem;
   margin: 1rem;
-  width: 90%;
   height: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
+  width: 18%;
 }
-.menu--menu1 {
+
+.menu--1 {
   background: #fcdfdb;
+}
+
+.fas {
+  font-size: 4rem;
+}
+
+.menu--2 {
+  background: #fff5fe;
+}
+
+.menu--3 {
+  background: #f9f9f9;
 }
 
 /*# sourceMappingURL=style.css.map */

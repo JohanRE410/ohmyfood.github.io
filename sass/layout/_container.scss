@@ -1,14 +1,27 @@
 .container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .menu {
-    @include main-shadow($colour-secondary);
     @include bloc-size;
     text-align: center;
-    &--menu1 {
-        background: $colour-bloc1;
-    }
+    width: 18%;
+}
+
+.menu--1 {
+    background: $colour-bloc1;
+}
+
+.fas {
+    font-size: $size-note;
+}
+
+.menu--2 {
+    background: $colour-bloc2;
+}
+
+.menu--3 {
+    background: $colour-bloc3;
 }
