@@ -3,12 +3,12 @@
     height: 15rem;
     align-items: center;
     display: flex;
-    width: 100%;
     justify-content: center;
+    margin-bottom: $margin-bloc;
     &__titre {
         color: $colour-primary;
         font-size: 8rem;
         font-family: "Montserrat SemiBold", sans-serif;
-        letter-spacing: -0.8rem;
+        letter-spacing: -0.8rem;        
     }
 }

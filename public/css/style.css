@@ -3,9 +3,10 @@ html {
 }
 
 body {
-  max-width: 1500px;
+  max-width: 1920px;
   margin: auto;
   background-color: #fff;
+  text-align: center;
 }
 
 @font-face {
@@ -72,7 +73,7 @@ body {
   src: local("Montserrat SemiBold"), local("Montserrat-SemiBold"), url("./public/font/montserrat-v14-latin-600.eot?#iefix") format("embedded-opentype"), url("./public/font/montserrat-v14-latin-600.woff2") format("woff2"), url("./public/font/montserrat-v14-latin-600.woff") format("woff"), url("./public/font/montserrat-v14-latin-600.ttf") format("truetype"), url("./public/font/montserrat-v14-latin-600.svg#Montserrat") format("svg");
 }
 body {
-  font-family: sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #000;
   font-weight: normal;
 }
@@ -82,8 +83,8 @@ body {
   height: 15rem;
   align-items: center;
   display: flex;
-  width: 100%;
   justify-content: center;
+  margin-bottom: 1rem;
 }
 .logo__titre {
   color: #fdcb46;
@@ -94,8 +95,8 @@ body {
 
 .container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
-  margin: 1rem;
 }
 
 .menu {
