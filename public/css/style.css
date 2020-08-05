@@ -175,12 +175,16 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
+  text-decoration-line: none;
   width: 18%;
 }
-
 .menu__un {
   background: #fcdfdb;
+  font-family: "Ma Shan Zheng";
+  font-size: 1.3rem;
+}
+.menu__un__typo {
+  font-family: "Segoe Print";
 }
 
 .fas {

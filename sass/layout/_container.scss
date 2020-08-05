@@ -6,12 +6,15 @@
 
 .menu {
     @include bloc-size;
-    text-align: center;
     width: 18%;
-}
-
-.menu__un {
-    background: $colour-bloc1;
+    &__un {
+        background: $colour-bloc1;
+        font-family: 'Ma Shan Zheng';
+        font-size: 1.3rem;
+        &__typo {
+            font-family: 'Segoe Print';
+        }
+    }   
 }
 
 .fas {
