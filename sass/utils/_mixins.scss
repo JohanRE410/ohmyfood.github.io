@@ -1,9 +1,19 @@
 @mixin bloc-size {
-    box-shadow: $margin-bloc $margin-bloc 20px $colour-secondary;
-    padding: $margin-bloc;
-    margin: $margin-bloc;
+    box-shadow: $margin $margin 20px $colour-secondary;
+    padding: $margin;
+    margin: $margin;
     height: 25rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+@mixin trois-point {
+    width: $margin;
+    height: $margin;
+    border-radius: 50%;
+    margin: $margin;
+    display: inline-block;
+    animation: loading 1600ms ease-in-out infinite;
+    background: $colour-primary;
 }

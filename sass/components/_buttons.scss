@@ -1,0 +1,42 @@
+.btn {
+    display: inline-block;
+    background: $colour-secondary;
+    border-radius: $margin;
+    &__mess {
+        color: $colour-primary;     
+        font-size: 2.1rem;   
+    }
+}
+
+.btn__point {
+    @include trois-point;
+    @keyframes loading {
+        0%
+        {
+            transform: scale(0);
+        }
+        20%
+        {
+            transform: scale(1);
+        }
+        80%
+        {
+            transform: scale(0);
+        }
+        100%
+        {
+            transform: scale(0);
+        }
+    
+    }
+}
+
+.btn__point--un {
+    animation-delay: 1400ms;
+    &--deux {
+        animation-delay: 1200ms;
+        &--trois {
+            animation-delay: 1000ms;
+        }
+    }
+}

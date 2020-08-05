@@ -78,6 +78,50 @@ body {
   font-weight: normal;
 }
 
+.btn {
+  display: inline-block;
+  background: #579c87;
+  border-radius: 1rem;
+}
+.btn__mess {
+  color: #fdcb46;
+  font-size: 2.1rem;
+}
+
+.btn__point {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  margin: 1rem;
+  display: inline-block;
+  animation: loading 1600ms ease-in-out infinite;
+  background: #fdcb46;
+}
+@keyframes loading {
+  0% {
+    transform: scale(0);
+  }
+  20% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+.btn__point--un {
+  animation-delay: 1400ms;
+}
+.btn__point--un--deux {
+  animation-delay: 1200ms;
+}
+.btn__point--un--deux--trois {
+  animation-delay: 1000ms;
+}
+
 .logo {
   background: #579c87;
   height: 15rem;
@@ -91,6 +135,29 @@ body {
   font-size: 8rem;
   font-family: "Montserrat SemiBold", sans-serif;
   letter-spacing: -0.8rem;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #579c87;
+  max-width: 1920px;
+  margin: auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__link {
+  list-style-type: none;
+}
+.nav__link a {
+  text-decoration-line: none;
+  color: #fdcb46;
+  font-size: 2rem;
 }
 
 .container {
@@ -111,7 +178,7 @@ body {
   width: 18%;
 }
 
-.menu--1 {
+.menu__un {
   background: #fcdfdb;
 }
 
@@ -119,11 +186,11 @@ body {
   font-size: 4rem;
 }
 
-.menu--2 {
+.menu__deux {
   background: #fff5fe;
 }
 
-.menu--3 {
+.menu__trois {
   background: #f9f9f9;
 }
 
