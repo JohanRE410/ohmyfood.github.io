@@ -154,7 +154,7 @@ body {
 .nav__link {
   list-style-type: none;
 }
-.nav__link a {
+.nav__link--style {
   text-decoration-line: none;
   color: #fdcb46;
   font-size: 1rem;
@@ -192,6 +192,12 @@ body {
 
 .menu__trois {
   background: #f2f2f2;
+}
+
+@media screen and (max-width: 915px) {
+  .menu {
+    width: 32%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
