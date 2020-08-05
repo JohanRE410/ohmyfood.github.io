@@ -1,14 +1,15 @@
 .logo {
     background: $colour-secondary;
-    height: 15rem;
-    align-items: center;
+    height: 8rem;
     display: flex;
-    justify-content: center;
+    align-items: center;    
+    justify-content: center;    
+    width: 100%;
     margin-bottom: $margin;
     &__titre {
-        color: $colour-primary;
-        font-size: 8rem;
         font-family: "Montserrat SemiBold", sans-serif;
-        letter-spacing: -0.8rem;        
+        font-size: 6rem;
+        letter-spacing: -0.8rem; 
+        color: $colour-primary;                      
     }
 }
