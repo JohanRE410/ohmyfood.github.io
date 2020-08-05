@@ -157,7 +157,7 @@ body {
 .nav__link a {
   text-decoration-line: none;
   color: #fdcb46;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .container {
@@ -187,11 +187,11 @@ body {
 }
 
 .menu__deux {
-  background: #fff5fe;
+  background: #ffe6fc;
 }
 
 .menu__trois {
-  background: #f9f9f9;
+  background: #f2f2f2;
 }
 
 /*# sourceMappingURL=style.css.map */
