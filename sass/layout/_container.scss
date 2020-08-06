@@ -9,22 +9,44 @@
     width: 18%;
     &__un {
         background: $colour-bloc1;
-        font-family: 'Ma Shan Zheng';
-        font-size: 1.3rem;
-        &__typo {
-            font-family: 'Segoe Print';
+    }
+    &__deux {
+        background: $colour-bloc2;
+    }
+    &__trois {
+        background: $colour-bloc3;
+    }
+    &__typo1 {
+        font-family: 'Ma Shan Zheng', sans-serif;
+        font-size: 1.9rem;
+    }
+    &__typo2 {
+        font-family: 'Segoe Print', sans-serif;
+        font-size: 2rem;
+        &--maj {
+            text-transform: uppercase;
         }
-    }   
+    }
+    &__typo3 {
+        font-family: 'Croissant One', sans-serif;
+        font-size: 1.9rem;
+    }
+    &__typo4 {
+        font-family: 'Abril Fatface', serif;
+        font-size: 2.1rem;
+    }
+    &__typo5 {
+        font-family: 'Dancing Script', sans-serif;
+        font-size: 2.5rem;
+    }
+    &__typo6 {
+        font-family: 'Kaushan Script', sans-serif;
+        font-size: 2.1rem;
+    }
 }
+
+
 
 .fas {
     font-size: $size-note;
-}
-
-.menu__deux {
-    background: $colour-bloc2;
-}
-
-.menu__trois {
-    background: $colour-bloc3;
 }

@@ -10,6 +10,15 @@
 
 .btn__point {
     @include trois-point;
+        &--un {
+            animation-delay: 1400ms;
+        }
+        &--deux {
+            animation-delay: 1200ms;
+        }
+        &--trois {
+            animation-delay: 1000ms;
+        }
     @keyframes loading {
         0%
         {
@@ -27,16 +36,7 @@
         {
             transform: scale(0);
         }
-    
+        
     }
 }
 
-.btn__point--un {
-    animation-delay: 1400ms;
-    &--deux {
-        animation-delay: 1200ms;
-        &--trois {
-            animation-delay: 1000ms;
-        }
-    }
-}

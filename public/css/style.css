@@ -97,6 +97,15 @@ body {
   animation: loading 1600ms ease-in-out infinite;
   background: #fdcb46;
 }
+.btn__point--un {
+  animation-delay: 1400ms;
+}
+.btn__point--deux {
+  animation-delay: 1200ms;
+}
+.btn__point--trois {
+  animation-delay: 1000ms;
+}
 @keyframes loading {
   0% {
     transform: scale(0);
@@ -110,16 +119,6 @@ body {
   100% {
     transform: scale(0);
   }
-}
-
-.btn__point--un {
-  animation-delay: 1400ms;
-}
-.btn__point--un--deux {
-  animation-delay: 1200ms;
-}
-.btn__point--un--deux--trois {
-  animation-delay: 1000ms;
 }
 
 .logo {
@@ -180,23 +179,43 @@ body {
 }
 .menu__un {
   background: #fcdfdb;
-  font-family: "Ma Shan Zheng";
-  font-size: 1.3rem;
 }
-.menu__un__typo {
-  font-family: "Segoe Print";
+.menu__deux {
+  background: #ffe6fc;
+}
+.menu__trois {
+  background: #f2f2f2;
+}
+.menu__typo1 {
+  font-family: "Ma Shan Zheng", sans-serif;
+  font-size: 1.9rem;
+}
+.menu__typo2 {
+  font-family: "Segoe Print", sans-serif;
+  font-size: 2rem;
+}
+.menu__typo2--maj {
+  text-transform: uppercase;
+}
+.menu__typo3 {
+  font-family: "Croissant One", sans-serif;
+  font-size: 1.9rem;
+}
+.menu__typo4 {
+  font-family: "Abril Fatface", serif;
+  font-size: 2.1rem;
+}
+.menu__typo5 {
+  font-family: "Dancing Script", sans-serif;
+  font-size: 2.5rem;
+}
+.menu__typo6 {
+  font-family: "Kaushan Script", sans-serif;
+  font-size: 2.1rem;
 }
 
 .fas {
   font-size: 4rem;
-}
-
-.menu__deux {
-  background: #ffe6fc;
-}
-
-.menu__trois {
-  background: #f2f2f2;
 }
 
 @media screen and (max-width: 915px) {
