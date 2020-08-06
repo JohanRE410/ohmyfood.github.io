@@ -4,14 +4,35 @@
     left: 0;
     width: 100%;
     background: $colour-secondary;
-    max-width: 1920px;
-    margin: auto;
 }
 
 .nav {
     display: flex;
     justify-content: space-between;
-    &__link {
+    animation: wiggle 300ms infinite;
+        @keyframes wiggle {
+        0% 
+        { 
+            transform: translate(4px,0);
+        }
+        25% 
+        { 
+            transform: translate(0,0);
+        }
+        50% 
+        { 
+            transform: translate(-4px,0);
+        }
+        75% 
+        { 
+            transform: translate(0,0);
+        }
+        100% 
+        { 
+            transform: translate(4px,0);
+        }
+        }
+    &__link {        
         list-style-type: none;
         font-size: 1.3rem;
         &--style {

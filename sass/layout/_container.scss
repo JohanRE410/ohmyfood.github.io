@@ -7,6 +7,10 @@
 .menu {
     @include bloc-size;
     width: 18%;
+    &__zoom a:hover {
+            transform: scale(1.1);
+            transition: all ease 600ms;
+    }
     &__un {
         background: $colour-bloc1;
     }
@@ -42,6 +46,7 @@
         background: linear-gradient(to right, $colour-chic1, $colour-chic2);
         background-clip: text;
         -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
     }
     &__typo4 {
         font-family: 'Abril Fatface', serif;
@@ -54,6 +59,7 @@
         background: linear-gradient(to right, $colour-delice1, $colour-delice2);
         background-clip: text;
         -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
         
     }
     &__typo6 {
@@ -62,6 +68,7 @@
         background: linear-gradient(to right, $colour-palette1, $colour-palette2);
         background-clip: text;
         -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
     }
 }
 
@@ -69,5 +76,6 @@
     font-size: $size-note;
     background: linear-gradient(to right, $colour-note1, $colour-note2);
     background-clip: text;
-    -webkit-text-fill-color: transparent;    
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
