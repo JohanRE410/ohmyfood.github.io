@@ -13,10 +13,11 @@
     justify-content: space-between;
     &__link {
         list-style-type: none;
+        font-size: 1.3rem;
         &--style {
         text-decoration-line: none;
         color: $colour-primary;
-        font-size: $margin;
+        padding-right: 40px;
         }
     }
 }

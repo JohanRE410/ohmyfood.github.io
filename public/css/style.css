@@ -82,6 +82,9 @@ body {
   display: inline-block;
   background: #579c87;
   border-radius: 1rem;
+  margin-bottom: 4rem;
+  height: 8rem;
+  padding: 0 4rem;
 }
 .btn__mess {
   color: #fdcb46;
@@ -92,19 +95,19 @@ body {
   width: 1rem;
   height: 1rem;
   border-radius: 50%;
-  margin: 1rem;
+  margin: 0 1rem;
   display: inline-block;
   animation: loading 1600ms ease-in-out infinite;
   background: #fdcb46;
 }
 .btn__point--un {
-  animation-delay: 1400ms;
+  animation-delay: 1000ms;
 }
 .btn__point--deux {
   animation-delay: 1200ms;
 }
 .btn__point--trois {
-  animation-delay: 1000ms;
+  animation-delay: 1400ms;
 }
 @keyframes loading {
   0% {
@@ -153,11 +156,12 @@ body {
 }
 .nav__link {
   list-style-type: none;
+  font-size: 1.3rem;
 }
 .nav__link--style {
   text-decoration-line: none;
   color: #fdcb46;
-  font-size: 1rem;
+  padding-right: 40px;
 }
 
 .container {
@@ -189,6 +193,8 @@ body {
 .menu__typo1 {
   font-family: "Ma Shan Zheng", sans-serif;
   font-size: 1.9rem;
+  color: initial;
+  margin-top: 0;
 }
 .menu__typo2 {
   font-family: "Segoe Print", sans-serif;
@@ -196,26 +202,46 @@ body {
 }
 .menu__typo2--maj {
   text-transform: uppercase;
+  color: initial;
+}
+.menu__typo2--delice {
+  color: #0431df;
+}
+.menu__typo2--palette {
+  color: #3d923a;
 }
 .menu__typo3 {
   font-family: "Croissant One", sans-serif;
   font-size: 1.9rem;
+  background: linear-gradient(to right, #c77412, #905bfd);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .menu__typo4 {
   font-family: "Abril Fatface", serif;
   font-size: 2.1rem;
+  color: #c77412;
 }
 .menu__typo5 {
   font-family: "Dancing Script", sans-serif;
   font-size: 2.5rem;
+  background: linear-gradient(to right, #0431df, #3d9ffa);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .menu__typo6 {
   font-family: "Kaushan Script", sans-serif;
   font-size: 2.1rem;
+  background: linear-gradient(to right, #3d923a, #beff7f);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .fas {
   font-size: 4rem;
+  background: linear-gradient(to right, #f04a5e, #f78f6a);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @media screen and (max-width: 915px) {

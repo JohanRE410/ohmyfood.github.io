@@ -19,34 +19,55 @@
     &__typo1 {
         font-family: 'Ma Shan Zheng', sans-serif;
         font-size: 1.9rem;
+        color: initial;
+        margin-top: 0;
     }
     &__typo2 {
         font-family: 'Segoe Print', sans-serif;
         font-size: 2rem;
         &--maj {
             text-transform: uppercase;
+            color: initial;
+        }
+        &--delice {
+            color: $colour-delice1;
+        }
+        &--palette {
+            color: $colour-palette1;
         }
     }
     &__typo3 {
         font-family: 'Croissant One', sans-serif;
         font-size: 1.9rem;
+        background: linear-gradient(to right, $colour-chic1, $colour-chic2);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
     &__typo4 {
         font-family: 'Abril Fatface', serif;
         font-size: 2.1rem;
+        color: $colour-chic1;
     }
     &__typo5 {
         font-family: 'Dancing Script', sans-serif;
         font-size: 2.5rem;
+        background: linear-gradient(to right, $colour-delice1, $colour-delice2);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
     }
     &__typo6 {
         font-family: 'Kaushan Script', sans-serif;
         font-size: 2.1rem;
+        background: linear-gradient(to right, $colour-palette1, $colour-palette2);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 }
 
-
-
 .fas {
     font-size: $size-note;
+    background: linear-gradient(to right, $colour-note1, $colour-note2);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;    
 }

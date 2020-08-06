@@ -2,22 +2,25 @@
     display: inline-block;
     background: $colour-secondary;
     border-radius: $margin;
+    margin-bottom: 4rem;
+    height: 8rem;
+    padding: 0 4rem;
     &__mess {
         color: $colour-primary;     
-        font-size: 2.1rem;   
+        font-size: 2.1rem;
     }
 }
 
 .btn__point {
     @include trois-point;
         &--un {
-            animation-delay: 1400ms;
+            animation-delay: 1000ms;
         }
         &--deux {
             animation-delay: 1200ms;
         }
         &--trois {
-            animation-delay: 1000ms;
+            animation-delay: 1400ms;
         }
     @keyframes loading {
         0%
