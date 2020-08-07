@@ -1,14 +1,3 @@
-html {
-  font-size: 100%;
-}
-
-body {
-  max-width: 1920px;
-  margin: auto;
-  background-color: #fff;
-  text-align: center;
-}
-
 @font-face {
   font-family: "Ma Shan Zheng";
   font-style: normal;
@@ -38,25 +27,11 @@ body {
   src: local("Croissant One"), local("CroissantOne-Regular"), url("./public/font/croissant-one-v8-latin-regular.eot?#iefix") format("embedded-opentype"), url("./public/font/croissant-one-v8-latin-regular.woff2") format("woff2"), url("./public/font/croissant-one-v8-latin-regular.woff") format("woff"), url("./public/font/croissant-one-v8-latin-regular.ttf") format("truetype"), url("./public/font/croissant-one-v8-latin-regular.svg#CroissantOne") format("svg");
 }
 @font-face {
-  font-family: "Abril Fatface";
-  font-style: normal;
-  font-weight: 400;
-  src: url("./public/font/abril-fatface-v11-latin-regular.eot");
-  src: local("Abril Fatface"), local("AbrilFatface-Regular"), url("./public/font/abril-fatface-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("./public/font/abril-fatface-v11-latin-regular.woff2") format("woff2"), url("./public/font/abril-fatface-v11-latin-regular.woff") format("woff"), url("./public/font/abril-fatface-v11-latin-regular.ttf") format("truetype"), url("./public/font/abril-fatface-v11-latin-regular.svg#AbrilFatface") format("svg");
-}
-@font-face {
   font-family: "Segoe Print";
   font-style: normal;
   font-weight: 400;
   src: url("./public/font/Segoe-Print-v1-latin-regular.eot");
   src: local("Segoe Print"), local("SegoePrint-Regular"), url("./public/font/Segoe-Print-v1-latin-regular.eot?#iefix") format("embedded-opentype"), url("./public/font/Segoe-Print-v1-latin-regular.woff2") format("woff2"), url("./public/font/Segoe-Print-v1-latin-regular.woff") format("woff"), url("./public/font/Segoe-Print-v1-latin-regular.ttf") format("truetype"), url("./public/font/Segoe-Print-v1-latin-regular.svg#AbrilFatface") format("svg");
-}
-@font-face {
-  font-family: "Meera Inimai";
-  font-style: normal;
-  font-weight: 400;
-  src: url("./public/font/meera-inimai-v5-latin-regular.eot");
-  src: local("Meera Inimai"), local("MeeraInimai-Regular"), url("./public/font/meera-inimai-v5-latin-regular.eot?#iefix") format("embedded-opentype"), url("./public/font/meera-inimai-v5-latin-regular.woff2") format("woff2"), url("./public/font/meera-inimai-v5-latin-regular.woff") format("woff"), url("./public/font/meera-inimai-v5-latin-regular.ttf") format("truetype"), url("./public/font/meera-inimai-v5-latin-regular.svg#MeeraInimai") format("svg");
 }
 @font-face {
   font-family: "Montserrat";
@@ -79,7 +54,15 @@ body {
   src: url("./public/font/pt-serif-v11-latin-regular.eot");
   src: local("PT Serif"), local("PTSerif-Regular"), url("./public/font/pt-serif-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("./public/font/pt-serif-v11-latin-regular.woff2") format("woff2"), url("./public/font/pt-serif-v11-latin-regular.woff") format("woff"), url("./public/font/pt-serif-v11-latin-regular.ttf") format("truetype"), url("./public/font/pt-serif-v11-latin-regular.svg#PTSerif") format("svg");
 }
+html {
+  font-size: 100%;
+}
+
 body {
+  max-width: 1920px;
+  margin: auto;
+  background-color: #fff;
+  text-align: center;
   font-family: "Montserrat", sans-serif;
   color: #000;
   font-weight: normal;
@@ -104,17 +87,8 @@ body {
   border-radius: 50%;
   margin: 0 1rem;
   display: inline-block;
-  animation: loading 1600ms ease-in-out infinite;
   background: #fdcb46;
-}
-.btn__point--un {
-  animation-delay: 1000ms;
-}
-.btn__point--deux {
-  animation-delay: 1200ms;
-}
-.btn__point--trois {
-  animation-delay: 1400ms;
+  animation: loading 1600ms ease-in-out infinite;
 }
 @keyframes loading {
   0% {
@@ -129,6 +103,15 @@ body {
   100% {
     transform: scale(0);
   }
+}
+.btn__point--un {
+  animation-delay: 1000ms;
+}
+.btn__point--deux {
+  animation-delay: 1200ms;
+}
+.btn__point--trois {
+  animation-delay: 1400ms;
 }
 
 .logo {
@@ -148,16 +131,19 @@ body {
 }
 
 .footer {
+  background: #579c87;
+  width: 100%;
   position: fixed;
   bottom: 0;
   left: 0;
-  width: 100%;
-  background: #579c87;
 }
 
 .nav {
+  list-style-type: none;
   display: flex;
   justify-content: space-between;
+  align-content: center;
+  margin-top: 1rem;
   animation: wiggle 300ms infinite;
 }
 @keyframes wiggle {
@@ -178,12 +164,9 @@ body {
   }
 }
 .nav__link {
-  list-style-type: none;
-  font-size: 1.3rem;
-}
-.nav__link__style {
   text-decoration-line: none;
   color: #fdcb46;
+  font-size: 1.3rem;
   padding-right: 40px;
 }
 
@@ -276,11 +259,6 @@ body {
   -webkit-background-clip: text;
 }
 
-@media screen and (max-width: 920px) {
-  .menu {
-    width: 32%;
-  }
-}
 .carte {
   display: flex;
   flex-direction: column;
