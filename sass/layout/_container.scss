@@ -12,13 +12,13 @@
         transition: all ease 600ms;
         opacity: 0.6;
     }
-    &__un {
+    &--un {
         background: $colour-bloc1;
     }
-    &__deux {
+    &--deux {
         background: $colour-bloc2;
     }
-    &__trois {
+    &--trois {
         background: $colour-bloc3;
     }
     &__typo1 {
@@ -71,12 +71,4 @@
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
     }
-}
-
-.fas {
-    font-size: $size-note;
-    background: linear-gradient(to right, $colour-note1, $colour-note2);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
 }

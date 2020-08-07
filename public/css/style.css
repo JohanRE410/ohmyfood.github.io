@@ -68,6 +68,14 @@ body {
   font-weight: normal;
 }
 
+.fas {
+  font-size: 4rem;
+  background: linear-gradient(to right, #f04a5e, #f78f6a);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
 .btn {
   display: inline-block;
   background: #579c87;
@@ -192,13 +200,13 @@ body {
   transition: all ease 600ms;
   opacity: 0.6;
 }
-.menu__un {
+.menu--un {
   background: #fcdfdb;
 }
-.menu__deux {
+.menu--deux {
   background: #ffe6fc;
 }
-.menu__trois {
+.menu--trois {
   background: #f2f2f2;
 }
 .menu__typo1 {
@@ -246,14 +254,6 @@ body {
   font-family: "Kaushan Script", sans-serif;
   font-size: 2.1rem;
   background: linear-gradient(to right, #3d923a, #beff7f);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-}
-
-.fas {
-  font-size: 4rem;
-  background: linear-gradient(to right, #f04a5e, #f78f6a);
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
