@@ -59,7 +59,7 @@ html {
 }
 @media screen and (max-width: 960px) {
   html {
-    font-size: 63%;
+    font-size: 67%;
     min-width: 340px;
   }
 }
