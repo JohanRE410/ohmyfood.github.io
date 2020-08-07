@@ -57,6 +57,12 @@
 html {
   font-size: 100%;
 }
+@media screen and (max-width: 960px) {
+  html {
+    font-size: 63%;
+    min-width: 340px;
+  }
+}
 
 body {
   max-width: 1920px;
@@ -80,7 +86,7 @@ body {
   display: inline-block;
   background: #579c87;
   border-radius: 1rem;
-  margin-bottom: 4rem;
+  margin: 1rem auto 5rem;
   height: 8rem;
   padding: 0 4rem;
 }
@@ -186,14 +192,19 @@ body {
 
 .menu {
   box-shadow: 0 0 1rem rgba(88, 157, 136, 0.6);
+  height: 18rem;
   padding: 1rem;
   margin: 1rem;
-  height: 18rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-decoration-line: none;
   width: 18%;
+  text-decoration-line: none;
+}
+@media screen and (max-width: 960px) {
+  .menu {
+    width: 36%;
+  }
 }
 .menu__zoom:hover {
   transform: scale(1.2);
@@ -221,7 +232,7 @@ body {
 }
 .menu__typo2--maj {
   text-transform: uppercase;
-  color: initial;
+  color: #000;
 }
 .menu__typo2--delice {
   color: #0431df;

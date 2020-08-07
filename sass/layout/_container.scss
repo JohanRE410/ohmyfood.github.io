@@ -5,8 +5,10 @@
 }
 
 .menu {
-    @include bloc-size;
-    width: 18%;
+    @media screen and (max-width: 960px) {
+        width: 36%;
+    }
+    @include bloc;
     &__zoom:hover {
         transform: scale(1.2);
         transition: all ease 600ms;
@@ -32,7 +34,7 @@
         font-size: 2rem;
         &--maj {
             text-transform: uppercase;
-            color: initial;
+            color: $colour-black;
         }
         &--delice {
             color: $colour-delice1;

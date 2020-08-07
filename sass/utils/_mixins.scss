@@ -1,14 +1,3 @@
-@mixin bloc-size {
-    box-shadow: 0 0 $margin $colour-boxshadow;
-    padding: $margin;
-    margin: $margin;
-    height: 18rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-decoration-line: none;
-}
-
 @mixin trois-point {
     width: $margin;
     height: $margin;
@@ -108,4 +97,16 @@
     color: $colour-primary;
     font-size: 1.3rem;
     padding-right: 40px;
+}
+
+@mixin bloc {
+    box-shadow: 0 0 $margin $colour-boxshadow;
+    height: 18rem;
+    padding: $margin;
+    margin: $margin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 18%;
+    text-decoration-line: none;
 }
