@@ -116,3 +116,16 @@
        url('./public/font/montserrat-v14-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
        url('./public/font/montserrat-v14-latin-500.svg#Montserrat') format('svg'); /* Legacy iOS */
 }
+/* pt-serif-regular - latin */
+@font-face {
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./public/font/pt-serif-v11-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('PT Serif'), local('PTSerif-Regular'),
+       url('./public/font/pt-serif-v11-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./public/font/pt-serif-v11-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./public/font/pt-serif-v11-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('./public/font/pt-serif-v11-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./public/font/pt-serif-v11-latin-regular.svg#PTSerif') format('svg'); /* Legacy iOS */
+}

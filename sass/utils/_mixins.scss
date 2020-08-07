@@ -18,3 +18,12 @@
     animation: loading 1600ms ease-in-out infinite;
     background: $colour-primary;
 }
+
+@mixin menu-carte {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 1rem auto 5rem;
+    line-height: 2.5rem;
+}

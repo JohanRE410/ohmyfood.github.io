@@ -10,12 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/JohanRE410/ohmyfood.github.io.git"
   },
-  "author": "",
+  "author": "JohanRE410",
   "license": "ISC",
 	"browserslist": "last 4 versions",
   "bugs": {
     "url": "https://github.com/JohanRE410/ohmyfood.github.io/issues"
   },
   "homepage": "https://github.com/JohanRE410/ohmyfood.github.io#readme",
-  "description": ""
+  "description": "Projet 3 - OC"
 }

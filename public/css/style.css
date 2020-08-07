@@ -72,6 +72,13 @@ body {
   src: url("./public/font/montserrat-v14-latin-600.eot");
   src: local("Montserrat SemiBold"), local("Montserrat-SemiBold"), url("./public/font/montserrat-v14-latin-600.eot?#iefix") format("embedded-opentype"), url("./public/font/montserrat-v14-latin-600.woff2") format("woff2"), url("./public/font/montserrat-v14-latin-600.woff") format("woff"), url("./public/font/montserrat-v14-latin-600.ttf") format("truetype"), url("./public/font/montserrat-v14-latin-600.svg#Montserrat") format("svg");
 }
+@font-face {
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./public/font/pt-serif-v11-latin-regular.eot");
+  src: local("PT Serif"), local("PTSerif-Regular"), url("./public/font/pt-serif-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("./public/font/pt-serif-v11-latin-regular.woff2") format("woff2"), url("./public/font/pt-serif-v11-latin-regular.woff") format("woff"), url("./public/font/pt-serif-v11-latin-regular.ttf") format("truetype"), url("./public/font/pt-serif-v11-latin-regular.svg#PTSerif") format("svg");
+}
 body {
   font-family: "Montserrat", sans-serif;
   color: #000;
@@ -240,8 +247,8 @@ body {
   -webkit-background-clip: text;
 }
 .menu__typo4 {
-  font-family: "Abril Fatface", serif;
-  font-size: 2.1rem;
+  font-family: "PT Serif", serif;
+  font-size: 2.2rem;
   color: #c77412;
 }
 .menu__typo5 {
@@ -273,6 +280,41 @@ body {
   .menu {
     width: 32%;
   }
+}
+.carte {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: 1rem auto 5rem;
+  line-height: 2.5rem;
+}
+.carte--1 {
+  background: #fcdfdb;
+  font-family: "Segoe Print", sans-serif;
+}
+.carte--1 h2 {
+  font-family: "Ma Shan Zheng", sans-serif;
+}
+.carte--2 {
+  background: #ffe6fc;
+  font-family: "PT Serif", serif;
+}
+.carte--2 h2 {
+  font-family: "Croissant One", sans-serif;
+}
+.carte--3 {
+  background: #f2f2f2;
+  font-family: "Segoe Print", sans-serif;
+}
+.carte--3 h2 {
+  font-family: "Dancing Script", sans-serif;
+}
+.carte--4 {
+  font-family: "Segoe Print", sans-serif;
+}
+.carte--4 h2 {
+  font-family: "Kaushan Script", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */

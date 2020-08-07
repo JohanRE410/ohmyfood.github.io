@@ -69,6 +69,14 @@
     src: local("Montserrat SemiBold"), local("Montserrat-SemiBold"), url('./public/font/montserrat-v14-latin-600.eot?#iefix') format("embedded-opentype"), url('./public/font/montserrat-v14-latin-600.woff2') format("woff2"), url('./public/font/montserrat-v14-latin-600.woff') format("woff"), url('./public/font/montserrat-v14-latin-600.ttf') format("truetype"), url('./public/font/montserrat-v14-latin-600.svg#Montserrat') format("svg");
   }
 
+  @font-face {
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./public/font/pt-serif-v11-latin-regular.eot');
+    src: local("PT Serif"), local("PTSerif-Regular"), url('./public/font/pt-serif-v11-latin-regular.eot?#iefix') format("embedded-opentype"), url('./public/font/pt-serif-v11-latin-regular.woff2') format("woff2"), url('./public/font/pt-serif-v11-latin-regular.woff') format("woff"), url('./public/font/pt-serif-v11-latin-regular.ttf') format("truetype"), url('./public/font/pt-serif-v11-latin-regular.svg#PTSerif') format("svg");
+  }
+
 body {
     font-family: "Montserrat", sans-serif;
     color: $colour-black;
