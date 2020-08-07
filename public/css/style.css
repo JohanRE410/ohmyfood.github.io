@@ -141,10 +141,10 @@ body {
   margin-bottom: 1rem;
 }
 .logo__titre {
+  color: #fdcb46;
   font-family: "Montserrat SemiBold", sans-serif;
   font-size: 6rem;
-  letter-spacing: -0.8rem;
-  color: #fdcb46;
+  letter-spacing: -0.7rem;
 }
 
 .footer {

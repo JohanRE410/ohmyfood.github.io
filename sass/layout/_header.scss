@@ -1,15 +1,6 @@
 .logo {
-    background: $colour-secondary;
-    height: 8rem;
-    display: flex;
-    align-items: center;    
-    justify-content: center;    
-    width: 100%;
-    margin-bottom: $margin;
+    @include header;
     &__titre {
-        font-family: "Montserrat SemiBold", sans-serif;
-        font-size: 6rem;
-        letter-spacing: -0.8rem; 
-        color: $colour-primary;                      
+        @include logo;                     
     }
 }
