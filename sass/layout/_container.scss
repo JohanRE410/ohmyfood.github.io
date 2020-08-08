@@ -1,76 +1,75 @@
 .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .menu {
-    @media screen and (max-width: 960px) {
-        width: 36%;
-    }
-    @include bloc;
-    &__zoom:hover {
-        transform: scale(1.2);
-        transition: all ease 600ms;
-        opacity: 0.6;
-    }
-    &--note {
-        background: $colour-bloc1;
-    }
-    &--chic {
-        background: $colour-bloc2;
+  @media screen and (max-width: 960px) {
+    width: 36%;
+  }
+  @include bloc;
+  &__zoom:hover {
+    transform: scale(1.2);
+    transition: all ease 600ms;
+    opacity: 0.6;
+  }
+  &--note {
+    background: $colour-bloc1;
+  }
+  &--chic {
+    background: $colour-bloc2;
+  }
+  &--delice {
+    background: $colour-bloc3;
+  }
+  &__typo1 {
+    font-family: "Ma Shan Zheng", sans-serif;
+    font-size: 2rem;
+    color: $colour-black;
+    margin-top: 0;
+  }
+  &__typo2 {
+    font-family: "Segoe Print", sans-serif;
+    font-size: 2rem;
+    &--maj {
+      text-transform: uppercase;
+      color: $colour-black;
     }
     &--delice {
-        background: $colour-bloc3;
+      color: $colour-delice1;
     }
-    &__typo1 {
-        font-family: 'Ma Shan Zheng', sans-serif;
-        font-size: 2rem;
-        color: initial;
-        margin-top: 0;
+    &--palette {
+      color: $colour-palette1;
     }
-    &__typo2 {
-        font-family: 'Segoe Print', sans-serif;
-        font-size: 2rem;
-        &--maj {
-            text-transform: uppercase;
-            color: $colour-black;
-        }
-        &--delice {
-            color: $colour-delice1;
-        }
-        &--palette {
-            color: $colour-palette1;
-        }
-    }
-    &__typo3 {
-        font-family: 'Croissant One', sans-serif;
-        font-size: 1.8rem;
-        background: linear-gradient(to right, $colour-chic1, $colour-chic2);
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
-    }
-    &__typo4 {
-        font-family: 'PT Serif', serif;
-        font-size: 2.2rem;
-        color: $colour-chic1;
-    }
-    &__typo5 {
-        font-family: 'Dancing Script', sans-serif;
-        font-size: 2.5rem;
-        background: linear-gradient(to right, $colour-delice1, $colour-delice2);
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
-        
-    }
-    &__typo6 {
-        font-family: 'Kaushan Script', sans-serif;
-        font-size: 2.1rem;
-        background: linear-gradient(to right, $colour-palette1, $colour-palette2);
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
-    }
+  }
+  &__typo3 {
+    font-family: "Croissant One", sans-serif;
+    font-size: 1.8rem;
+    background: linear-gradient(to right, $colour-chic1, $colour-chic2);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  &__typo4 {
+    font-family: "PT Serif", serif;
+    font-size: 2.2rem;
+    color: $colour-chic1;
+  }
+  &__typo5 {
+    font-family: "Dancing Script", sans-serif;
+    font-size: 2.5rem;
+    background: linear-gradient(to right, $colour-delice1, $colour-delice2);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  &__typo6 {
+    font-family: "Kaushan Script", sans-serif;
+    font-size: 2.1rem;
+    background: linear-gradient(to right, $colour-palette1, $colour-palette2);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
 }

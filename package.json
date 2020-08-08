@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch ./sass/main.scss:./public/css/style.css --style expanded",
-	"prefix": "postcss ./public/css/style.css --use autoprefixer -d ./public/css/prexfixed"
+    "prefix": "postcss ./public/css/style.css --use autoprefixer -d ./public/css/prexfixed"
   },
   "repository": {
     "type": "git",
@@ -12,7 +12,7 @@
   },
   "author": "JohanRE410",
   "license": "ISC",
-	"browserslist": "last 4 versions",
+  "browserslist": "last 4 versions",
   "bugs": {
     "url": "https://github.com/JohanRE410/ohmyfood.github.io/issues"
   },

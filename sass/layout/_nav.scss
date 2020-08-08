@@ -1,9 +1,9 @@
 .footer {
-    @include footer;
+  @include footer;
 }
 .nav {
-    @include footer-nav;
-    &__link {        
-        @include footer-link;
-    }
+  @include footer-nav;
+  &__link {
+    @include footer-link;
+  }
 }

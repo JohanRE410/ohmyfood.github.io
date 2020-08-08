@@ -2,7 +2,7 @@ $colour-white: #fff;
 $colour-black: #000;
 $colour-primary: #fdcb46;
 $colour-secondary: #579c87;
-$colour-boxshadow:rgba(88, 157, 136, 0.6);
+$colour-boxshadow: rgba(88, 157, 136, 0.6);
 $colour-bloc1: #fcdfdb;
 $colour-bloc2: #ffe6fc;
 $colour-bloc3: #f2f2f2;
@@ -16,5 +16,6 @@ $colour-palette1: #3d923a;
 $colour-palette2: #beff7f;
 
 $margin: 1rem;
-$size-note: $margin * 4;
+$size-note: $margin * 6;
 $size-dot: $margin * 2;
+$table-width: 90%;

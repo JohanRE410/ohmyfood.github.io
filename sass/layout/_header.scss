@@ -1,6 +1,6 @@
 .logo {
-    @include header;
-    &__titre {
-        @include logo;                     
-    }
+  @include header;
+  &__titre {
+    @include logo;
+  }
 }
