@@ -3,6 +3,7 @@
   &--1 {
     background: $colour-bloc1;
     font-family: "Segoe Print", sans-serif;
+<<<<<<< HEAD
     h2 {
       font-family: "Ma Shan Zheng", sans-serif;
     }
@@ -27,4 +28,58 @@
       font-family: "Kaushan Script", sans-serif;
     }
   }
+=======
+    font-size: 1.2rem;
+  }
+  &--titre1 {
+    font-family: "Ma Shan Zheng", sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-size: 3.1rem;
+  }
+
+  &--2 {
+    background: $colour-bloc2;
+    font-family: "PT Serif", serif;
+    h2 {
+      font-family: "Croissant One", sans-serif;
+    }
+  }
+  &--3 {
+    background: $colour-bloc3;
+    font-family: "Segoe Print", sans-serif;
+    h2 {
+      font-family: "Dancing Script", sans-serif;
+    }
+  }
+  &--4 {
+    font-family: "Segoe Print", sans-serif;
+    h2 {
+      font-family: "Kaushan Script", sans-serif;
+    }
+  }
+}
+
+.table {
+  width: $table-width;
+}
+
+.table__box {
+  @include table;
+}
+
+.note {
+  display: flex;
+  font-family: "Ma Shan Zheng", sans-serif;
+  font-size: 3.1rem;
+  align-content: center;
+}
+.fas--note {
+  font-size: 4rem;
+  padding-right: 1rem;
+}
+
+tr > th {
+  font-weight: normal;
+>>>>>>> 46ffaa417b5e603070111c3c527dddd35b986b94
 }

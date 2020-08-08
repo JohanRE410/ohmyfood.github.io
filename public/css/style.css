@@ -72,10 +72,11 @@ body {
   font-family: "Montserrat", sans-serif;
   color: #000;
   font-weight: normal;
+  font-size: 1.7rem;
 }
 
 .fas {
-  font-size: 4rem;
+  font-size: 6rem;
   background: linear-gradient(to right, #f04a5e, #f78f6a);
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -141,7 +142,7 @@ body {
   color: #fdcb46;
   font-family: "Montserrat SemiBold", sans-serif;
   font-size: 6rem;
-  letter-spacing: -0.7rem;
+  letter-spacing: -0.3rem;
 }
 
 .footer {
@@ -149,7 +150,7 @@ body {
   width: 100%;
   position: fixed;
   bottom: 0;
-  left: 0;
+  max-width: 1920px;
 }
 
 .nav {
@@ -192,13 +193,13 @@ body {
 
 .menu {
   box-shadow: 0 0 1rem rgba(88, 157, 136, 0.6);
-  height: 18rem;
+  height: 20rem;
   padding: 1rem;
   margin: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 18%;
+  width: 32%;
   text-decoration-line: none;
 }
 @media screen and (max-width: 960px) {
@@ -223,7 +224,7 @@ body {
 .menu__typo1 {
   font-family: "Ma Shan Zheng", sans-serif;
   font-size: 2rem;
-  color: initial;
+  color: #000;
   margin-top: 0;
 }
 .menu__typo2 {
@@ -274,16 +275,21 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 80%;
-  margin: 1rem auto 5rem;
-  line-height: 2.5rem;
+  width: 90%;
+  margin: 1rem auto 6rem;
+  line-height: 4rem;
+  box-shadow: 0 0 1rem rgba(88, 157, 136, 0.6);
 }
 .carte--1 {
   background: #fcdfdb;
   font-family: "Segoe Print", sans-serif;
+  font-size: 1.2rem;
 }
-.carte--1 h2 {
+.carte--titre1 {
   font-family: "Ma Shan Zheng", sans-serif;
+  display: flex;
+  flex-direction: column;
+  font-size: 3.1rem;
 }
 .carte--2 {
   background: #ffe6fc;
@@ -304,6 +310,31 @@ body {
 }
 .carte--4 h2 {
   font-family: "Kaushan Script", sans-serif;
+}
+
+.table {
+  width: 90%;
+}
+
+.table__box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.note {
+  display: flex;
+  font-family: "Ma Shan Zheng", sans-serif;
+  font-size: 3.1rem;
+  align-content: center;
+}
+
+.fas--note {
+  font-size: 4rem;
+  padding-right: 1rem;
+}
+
+tr > th {
+  font-weight: normal;
 }
 
 /*# sourceMappingURL=style.css.map */
