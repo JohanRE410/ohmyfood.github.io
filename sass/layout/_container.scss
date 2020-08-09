@@ -44,12 +44,8 @@
     }
   }
   &__typo3 {
-    font-family: "Croissant One", sans-serif;
+    @include typo-chic;
     font-size: 1.8rem;
-    background: linear-gradient(to right, $colour-chic1, $colour-chic2);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
   }
   &__typo4 {
     font-family: "PT Serif", serif;
@@ -57,19 +53,11 @@
     color: $colour-chic1;
   }
   &__typo5 {
-    font-family: "Dancing Script", sans-serif;
+    @include typo-delice;
     font-size: 2.5rem;
-    background: linear-gradient(to right, $colour-delice1, $colour-delice2);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
   }
   &__typo6 {
-    font-family: "Kaushan Script", sans-serif;
+    @include typo-palette;
     font-size: 2.1rem;
-    background: linear-gradient(to right, $colour-palette1, $colour-palette2);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
   }
 }

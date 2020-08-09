@@ -242,11 +242,11 @@ body {
 }
 .menu__typo3 {
   font-family: "Croissant One", sans-serif;
-  font-size: 1.8rem;
   background: linear-gradient(to right, #c77412, #905bfd);
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  font-size: 1.8rem;
 }
 .menu__typo4 {
   font-family: "PT Serif", serif;
@@ -255,19 +255,19 @@ body {
 }
 .menu__typo5 {
   font-family: "Dancing Script", sans-serif;
-  font-size: 2.5rem;
   background: linear-gradient(to right, #0431df, #3d9ffa);
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  font-size: 2.5rem;
 }
 .menu__typo6 {
   font-family: "Kaushan Script", sans-serif;
-  font-size: 2.1rem;
   background: linear-gradient(to right, #3d923a, #beff7f);
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  font-size: 2.1rem;
 }
 
 .carte {
@@ -294,30 +294,56 @@ body {
   background: #ffe6fc;
   font-family: "PT Serif", serif;
 }
-.carte--2 h2 {
+.carte--titre2 {
   font-family: "Croissant One", sans-serif;
+  background: linear-gradient(to right, #c77412, #905bfd);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 2.3rem;
+  margin: 6rem auto;
 }
 .carte--3 {
   background: #f2f2f2;
   font-family: "Segoe Print", sans-serif;
 }
-.carte--3 h2 {
+.carte--titre3 {
   font-family: "Dancing Script", sans-serif;
+  background: linear-gradient(to right, #0431df, #3d9ffa);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 3.9rem;
+  margin: 6rem auto;
 }
 .carte--4 {
   font-family: "Segoe Print", sans-serif;
 }
-.carte--4 h2 {
+.carte--titre4 {
   font-family: "Kaushan Script", sans-serif;
+  background: linear-gradient(to right, #3d923a, #beff7f);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 3rem;
+  margin: 6rem auto;
 }
 
 .table {
   width: 90%;
 }
-
+.table caption {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
 .table__box {
   display: flex;
   justify-content: space-between;
+  font-size: 1.3rem;
+  margin: 1rem auto;
+}
+.table__box th {
+  font-weight: normal;
 }
 
 .note {
@@ -330,10 +356,6 @@ body {
 .fas--note {
   font-size: 4rem;
   padding-right: 1rem;
-}
-
-tr > th {
-  font-weight: normal;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -15,31 +15,45 @@
   &--2 {
     background: $colour-bloc2;
     font-family: "PT Serif", serif;
-    h2 {
-      font-family: "Croissant One", sans-serif;
-    }
   }
+  &--titre2 {
+    @include typo-chic;
+    font-size: 2.3rem;
+    margin: 6rem auto;
+  }
+
   &--3 {
     background: $colour-bloc3;
     font-family: "Segoe Print", sans-serif;
-    h2 {
-      font-family: "Dancing Script", sans-serif;
-    }
+  }
+
+  &--titre3 {
+    @include typo-delice;
+    font-size: 3.9rem;
+    margin: 6rem auto;
   }
   &--4 {
     font-family: "Segoe Print", sans-serif;
-    h2 {
-      font-family: "Kaushan Script", sans-serif;
-    }
+  }
+  &--titre4 {
+    @include typo-palette;
+    font-size: 3rem;
+    margin: 6rem auto;
   }
 }
 
 .table {
   width: $table-width;
-}
-
-.table__box {
-  @include table;
+  caption {
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+  &__box {
+    @include table;
+    th {
+      font-weight: normal;
+    }
+  }
 }
 
 .note {
@@ -48,11 +62,8 @@
   font-size: 3.1rem;
   align-content: center;
 }
+
 .fas--note {
   font-size: 4rem;
   padding-right: 1rem;
-}
-
-tr > th {
-  font-weight: normal;
 }
