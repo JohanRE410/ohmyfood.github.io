@@ -112,23 +112,38 @@
 @mixin typo-chic {
   font-family: "Croissant One", sans-serif;
   background: linear-gradient(to right, $colour-chic1, $colour-chic2);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#c77412),
+    to(#905bfd)
+  );
+  background: -o-linear-gradient(left, #c77412, #905bfd);
 }
 
 @mixin typo-delice {
   font-family: "Dancing Script", sans-serif;
   background: linear-gradient(to right, $colour-delice1, $colour-delice2);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#0431df),
+    to(#3d9ffa)
+  );
+  background: -o-linear-gradient(left, #0431df, #3d9ffa);
 }
 
 @mixin typo-palette {
   font-family: "Kaushan Script", sans-serif;
   background: linear-gradient(to right, $colour-palette1, $colour-palette2);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#3d923a),
+    to(#beff7f)
+  );
+  background: -o-linear-gradient(left, #3d923a, #beff7f);
 }

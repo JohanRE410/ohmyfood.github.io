@@ -243,9 +243,8 @@ body {
 .menu__typo3 {
   font-family: "Croissant One", sans-serif;
   background: linear-gradient(to right, #c77412, #905bfd);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  background: -webkit-gradient(linear, left top, right top, from(#c77412), to(#905bfd));
+  background: -o-linear-gradient(left, #c77412, #905bfd);
   font-size: 1.8rem;
 }
 .menu__typo4 {
@@ -256,17 +255,15 @@ body {
 .menu__typo5 {
   font-family: "Dancing Script", sans-serif;
   background: linear-gradient(to right, #0431df, #3d9ffa);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  background: -webkit-gradient(linear, left top, right top, from(#0431df), to(#3d9ffa));
+  background: -o-linear-gradient(left, #0431df, #3d9ffa);
   font-size: 2.5rem;
 }
 .menu__typo6 {
   font-family: "Kaushan Script", sans-serif;
   background: linear-gradient(to right, #3d923a, #beff7f);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  background: -webkit-gradient(linear, left top, right top, from(#3d923a), to(#beff7f));
+  background: -o-linear-gradient(left, #3d923a, #beff7f);
   font-size: 2.1rem;
 }
 
@@ -297,9 +294,8 @@ body {
 .carte--titre2 {
   font-family: "Croissant One", sans-serif;
   background: linear-gradient(to right, #c77412, #905bfd);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  background: -webkit-gradient(linear, left top, right top, from(#c77412), to(#905bfd));
+  background: -o-linear-gradient(left, #c77412, #905bfd);
   font-size: 2.3rem;
   margin: 6rem auto;
 }
@@ -310,9 +306,8 @@ body {
 .carte--titre3 {
   font-family: "Dancing Script", sans-serif;
   background: linear-gradient(to right, #0431df, #3d9ffa);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  background: -webkit-gradient(linear, left top, right top, from(#0431df), to(#3d9ffa));
+  background: -o-linear-gradient(left, #0431df, #3d9ffa);
   font-size: 3.9rem;
   margin: 6rem auto;
 }
@@ -322,9 +317,8 @@ body {
 .carte--titre4 {
   font-family: "Kaushan Script", sans-serif;
   background: linear-gradient(to right, #3d923a, #beff7f);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  background: -webkit-gradient(linear, left top, right top, from(#3d923a), to(#beff7f));
+  background: -o-linear-gradient(left, #3d923a, #beff7f);
   font-size: 3rem;
   margin: 6rem auto;
 }
