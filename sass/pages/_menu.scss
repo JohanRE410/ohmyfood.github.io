@@ -18,7 +18,7 @@
   }
   &--titre2 {
     @include typo-chic;
-    font-size: 2.3rem;
+    font-size: 2.5rem;
     margin: 6rem auto;
   }
 
@@ -37,13 +37,22 @@
   }
   &--titre4 {
     @include typo-palette;
-    font-size: 3rem;
+    font-size: 3.9rem;
     margin: 6rem auto;
   }
 }
 
 .table {
   width: $table-width;
+  &--chic1 {
+    color: $colour-chic1;
+  }
+  &--chic2 {
+    color: $colour-chic2;
+  }
+  &--chic3 {
+    color: $colour-chic3;
+  }
   caption {
     font-size: 1.6rem;
     font-weight: bold;
