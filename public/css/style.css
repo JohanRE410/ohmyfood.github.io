@@ -60,7 +60,7 @@ html {
 @media screen and (max-width: 960px) {
   html {
     font-size: 67%;
-    min-width: 340px;
+    min-width: 350px;
   }
 }
 
@@ -72,11 +72,10 @@ body {
   font-family: "Montserrat", sans-serif;
   color: #000;
   font-weight: normal;
-  font-size: 1.7rem;
 }
 
 .fas {
-  font-size: 6rem;
+  font-size: 4rem;
   background: linear-gradient(to right, #f04a5e, #f78f6a);
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -193,7 +192,7 @@ body {
 
 .menu {
   box-shadow: 0 0 1rem rgba(88, 157, 136, 0.6);
-  height: 20rem;
+  height: 30rem;
   padding: 1rem;
   margin: 1rem;
   display: flex;
