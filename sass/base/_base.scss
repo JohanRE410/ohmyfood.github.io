@@ -119,7 +119,9 @@ html {
   font-size: 100%;
   @media screen and (max-width: 960px) {
     font-size: 67%;
-    min-width: 350px;
+  }
+  @media screen and (max-width: 640px) {
+    min-width: 320px;
   }
 }
 
