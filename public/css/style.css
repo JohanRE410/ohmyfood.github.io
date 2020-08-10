@@ -77,9 +77,9 @@ body {
 .fas {
   font-size: 4rem;
   background: linear-gradient(to right, #f04a5e, #f78f6a);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .btn {
