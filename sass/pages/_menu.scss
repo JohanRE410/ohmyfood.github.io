@@ -53,10 +53,6 @@
   &--chic3 {
     color: $colour-chic3;
   }
-  caption {
-    font-size: 1.6rem;
-    font-weight: bold;
-  }
   &__box {
     @include table;
     th {
@@ -85,6 +81,19 @@
     width: 33%;
   }
   &__titre {
-    width: 24%;
+    width: 28%;
+    font-size: 1.6rem;
+    text-decoration: none;
+    background: linear-gradient(
+        to top,
+        $colour-black 0%,
+        $colour-black 10%,
+        transparent 10.01%
+      )
+      no-repeat left bottom / 0 100%;
+    transition: background-size 0.5s;
+    &:hover {
+      background-size: 100% 100%;
+    }
   }
 }

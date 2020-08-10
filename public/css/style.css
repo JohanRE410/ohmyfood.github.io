@@ -286,7 +286,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 90%;
+  width: 95%;
   margin: 1rem auto 6rem;
   line-height: 4rem;
   box-shadow: 0 0 1rem rgba(88, 157, 136, 0.6);
@@ -343,7 +343,7 @@ body {
 }
 
 .table {
-  width: 90%;
+  width: 80%;
 }
 .table--chic1 {
   color: #c77412;
@@ -353,10 +353,6 @@ body {
 }
 .table--chic3 {
   color: #a56799;
-}
-.table caption {
-  font-size: 1.6rem;
-  font-weight: bold;
 }
 .table__box {
   display: flex;
@@ -389,7 +385,14 @@ body {
   width: 33%;
 }
 .choix__titre {
-  width: 24%;
+  width: 28%;
+  font-size: 1.6rem;
+  text-decoration: none;
+  background: linear-gradient(to top, #000 0%, #000 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+  transition: background-size 0.5s;
+}
+.choix__titre:hover {
+  background-size: 100% 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
