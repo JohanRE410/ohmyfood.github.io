@@ -81,9 +81,18 @@
     width: 33%;
   }
   &__titre {
-    width: 28%;
+    width: auto;
     font-size: 1.6rem;
     text-decoration: none;
+    &--appetit {
+      color: $colour-chic1;
+    }
+    &--plaisir {
+      color: $colour-chic3;
+    }
+    &--sucree {
+      color: $colour-chic2;
+    }
     background: linear-gradient(
         to top,
         $colour-black 0%,
@@ -91,7 +100,7 @@
         transparent 10.01%
       )
       no-repeat left bottom / 0 100%;
-    transition: background-size 0.5s;
+    transition: background-size 0.6s;
     &:hover {
       background-size: 100% 100%;
     }

@@ -385,11 +385,20 @@ body {
   width: 33%;
 }
 .choix__titre {
-  width: 28%;
+  width: auto;
   font-size: 1.6rem;
   text-decoration: none;
   background: linear-gradient(to top, #000 0%, #000 10%, transparent 10.01%) no-repeat left bottom/0 100%;
-  transition: background-size 0.5s;
+  transition: background-size 0.6s;
+}
+.choix__titre--appetit {
+  color: #c77412;
+}
+.choix__titre--plaisir {
+  color: #a56799;
+}
+.choix__titre--sucree {
+  color: #905bfd;
 }
 .choix__titre:hover {
   background-size: 100% 100%;
