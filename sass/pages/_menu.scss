@@ -76,3 +76,15 @@
   font-size: 4rem;
   padding-right: 1rem;
 }
+
+.choix {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  &__deco {
+    width: 33%;
+  }
+  &__titre {
+    width: 24%;
+  }
+}

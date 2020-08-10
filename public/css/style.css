@@ -380,4 +380,16 @@ body {
   padding-right: 1rem;
 }
 
+.choix {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+.choix__deco {
+  width: 33%;
+}
+.choix__titre {
+  width: 24%;
+}
+
 /*# sourceMappingURL=style.css.map */
