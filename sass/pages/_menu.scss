@@ -1,3 +1,6 @@
+main {
+  margin-bottom: 12rem;
+}
 .carte {
   @include menu-carte;
   &--1 {
@@ -43,6 +46,7 @@
 }
 
 .table {
+  @include table;
   width: $table-width;
   &--chic1 {
     color: $colour-chic1;
@@ -52,12 +56,6 @@
   }
   &--chic3 {
     color: $colour-chic3;
-  }
-  &__box {
-    @include table;
-    th {
-      font-weight: normal;
-    }
   }
 }
 

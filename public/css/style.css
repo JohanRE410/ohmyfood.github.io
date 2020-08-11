@@ -72,7 +72,6 @@
 }
 html {
   font-size: 100%;
-  min-width: 630px;
 }
 @media screen and (max-width: 960px) {
   html {
@@ -91,7 +90,7 @@ body {
 }
 
 .fas {
-  font-size: 4rem;
+  font-size: 12rem;
   background: linear-gradient(to right, #f04a5e, #f78f6a);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -100,8 +99,8 @@ body {
 .btn {
   display: inline-block;
   background: #579c87;
-  border-radius: 1rem;
-  margin: 1rem auto 5rem;
+  border-radius: 3rem;
+  margin: 3rem auto 5rem;
   height: 8rem;
   padding: 0 4rem;
 }
@@ -111,10 +110,10 @@ body {
 }
 
 .btn__point {
-  width: 1rem;
-  height: 1rem;
+  width: 3rem;
+  height: 3rem;
   border-radius: 50%;
-  margin: 0 1rem;
+  margin: 0 3rem;
   display: inline-block;
   background: #fdcb46;
   animation: loading 1600ms ease-in-out infinite;
@@ -145,18 +144,18 @@ body {
 
 .logo {
   background: #579c87;
-  height: 8rem;
+  height: 15rem;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 .logo__titre {
   color: #fdcb46;
   font-family: "Montserrat SemiBold", sans-serif;
-  font-size: 6rem;
-  letter-spacing: -0.3rem;
+  font-size: 7rem;
+  letter-spacing: -0.6rem;
 }
 
 .footer {
@@ -165,6 +164,7 @@ body {
   position: fixed;
   bottom: 0;
   max-width: 1920px;
+  margin-top: 3rem;
 }
 
 .nav {
@@ -172,7 +172,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-content: center;
-  margin-top: 1rem;
+  margin-top: 3rem;
   animation: wiggle 300ms infinite;
 }
 @keyframes wiggle {
@@ -206,10 +206,10 @@ body {
 }
 
 .menu {
-  box-shadow: 0 0 1rem rgba(88, 157, 136, 0.6);
+  box-shadow: 0 0 3rem rgba(88, 157, 136, 0.6);
   height: 30rem;
-  padding: 1rem;
-  margin: 1rem;
+  padding: 3rem;
+  margin: 3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -290,14 +290,18 @@ body {
   font-size: 2.1rem;
 }
 
+main {
+  margin-bottom: 12rem;
+}
+
 .carte {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 95%;
+  width: 78%;
   margin: 1rem auto 6rem;
   line-height: 4rem;
-  box-shadow: 0 0 1rem rgba(88, 157, 136, 0.6);
+  box-shadow: 0 0 3rem rgba(88, 157, 136, 0.6);
 }
 .carte--1 {
   background: #fcdfdb;
@@ -348,6 +352,12 @@ body {
 }
 
 .table {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  margin: 3rem;
   width: 80%;
 }
 .table--chic1 {
@@ -358,16 +368,6 @@ body {
 }
 .table--chic3 {
   color: #a56799;
-}
-.table__box {
-  display: flex;
-  justify-content: space-between;
-  font-size: 1.3rem;
-  margin: 1rem auto;
-  text-align: left;
-}
-.table__box th {
-  font-weight: normal;
 }
 
 .note {

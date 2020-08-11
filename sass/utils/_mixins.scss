@@ -26,7 +26,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 95%;
+  width: 78%;
   margin: 1rem auto 6rem;
   line-height: 4rem;
   box-shadow: 0 0 $margin $colour-boxshadow;
@@ -34,7 +34,7 @@
 
 @mixin header {
   background: $colour-secondary;
-  height: 8rem;
+  height: 15rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,8 +45,8 @@
 @mixin logo {
   color: $colour-primary;
   font-family: "Montserrat SemiBold", sans-serif;
-  font-size: 6rem;
-  letter-spacing: -0.3rem;
+  font-size: 7rem;
+  letter-spacing: -0.6rem;
 }
 
 @mixin footer {
@@ -55,6 +55,7 @@
   position: fixed;
   bottom: 0;
   max-width: 1920px;
+  margin-top: $margin;
 }
 
 @mixin footer-nav {
@@ -104,10 +105,11 @@
 
 @mixin table {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   font-size: 1.3rem;
-  margin: $margin auto;
-  text-align: left;
+  margin: $margin;
 }
 
 @mixin typo-chic {
