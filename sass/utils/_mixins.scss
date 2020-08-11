@@ -113,7 +113,6 @@
 @mixin typo-chic {
   font-family: "Croissant One", sans-serif;
   background: linear-gradient(to right, $colour-chic1, $colour-chic2);
-  background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -121,7 +120,6 @@
 @mixin typo-delice {
   font-family: "Dancing Script", sans-serif;
   background: linear-gradient(to right, $colour-delice1, $colour-delice2);
-  background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -130,7 +128,6 @@
   font-family: "Kaushan Script", sans-serif;
   font-size: 2.1rem;
   background: linear-gradient(to right, $colour-palette1, $colour-palette2);
-  background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }

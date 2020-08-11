@@ -3,90 +3,62 @@
   font-family: "Ma Shan Zheng";
   font-style: normal;
   font-weight: 400;
-  src: url("./public/font/ma-shan-zheng-v5-latin-regular.eot");
-  /* IE9 Compat Modes */
-  src: local("Ma Shan Zheng"), local("MaShanZheng-Regular"), url("./public/font/ma-shan-zheng-v5-latin-regular.eot?#iefix") format("embedded-opentype"), url("./public/font/ma-shan-zheng-v5-latin-regular.woff2") format("woff2"), url("./public/font/ma-shan-zheng-v5-latin-regular.woff") format("woff"), url("./public/font/ma-shan-zheng-v5-latin-regular.ttf") format("truetype"), url("./public/font/ma-shan-zheng-v5-latin-regular.svg#MaShanZheng") format("svg");
-  /* Legacy iOS */
+  src: local("Ma Shan Zheng"), local("MaShanZheng-Regular"), url("../font/ma-shan-zheng-v5-latin-regular.woff") format("woff"), url("../font/ma-shan-zheng-v5-latin-regular.ttf") format("truetype");
 }
 /* kaushan-script-regular - latin */
 @font-face {
   font-family: "Kaushan Script";
   font-style: normal;
   font-weight: 400;
-  src: url("./puplic/font/kaushan-script-v8-latin-regular.eot");
-  /* IE9 Compat Modes */
-  src: local("Kaushan Script"), local("KaushanScript-Regular"), url("./puplic/font/kaushan-script-v8-latin-regular.eot?#iefix") format("embedded-opentype"), url("./puplic/font/kaushan-script-v8-latin-regular.woff2") format("woff2"), url("./puplic/font/kaushan-script-v8-latin-regular.woff") format("woff"), url("./puplic/font/kaushan-script-v8-latin-regular.ttf") format("truetype"), url("./puplic/font/kaushan-script-v8-latin-regular.svg#KaushanScript") format("svg");
-  /* Legacy iOS */
+  src: local("Kaushan Script"), local("KaushanScript-Regular"), url("../font/kaushan-script-v8-latin-regular.woff") format("woff"), url("../font/kaushan-script-v8-latin-regular.ttf") format("truetype");
 }
 /* dancing-script-regular - latin */
 @font-face {
   font-family: "Dancing Script";
   font-style: normal;
   font-weight: 400;
-  src: url("./public/font/dancing-script-v15-latin-regular.eot");
-  /* IE9 Compat Modes */
-  src: local("Dancing Script"), local("DancingScript-Regular"), url("./public/font/dancing-script-v15-latin-regular.eot?#iefix") format("embedded-opentype"), url("./public/font/dancing-script-v15-latin-regular.woff2") format("woff2"), url("./public/font/dancing-script-v15-latin-regular.woff") format("woff"), url("./public/font/dancing-script-v15-latin-regular.ttf") format("truetype"), url("./public/font/dancing-script-v15-latin-regular.svg#DancingScript") format("svg");
-  /* Legacy iOS */
+  src: local("Dancing Script"), local("DancingScript-Regular"), url("../font/dancing-script-v15-latin-regular.woff") format("woff"), url("../font/dancing-script-v15-latin-regular.ttf") format("truetype");
 }
 /* croissant-one-regular - latin */
 @font-face {
   font-family: "Croissant One";
   font-style: normal;
-  font-weight: 400;
-  src: url("./public/font/croissant-one-v8-latin-regular.eot");
-  /* IE9 Compat Modes */
-  src: local("Croissant One"), local("CroissantOne-Regular"), url("./public/font/croissant-one-v8-latin-regular.eot?#iefix") format("embedded-opentype"), url("./public/font/croissant-one-v8-latin-regular.woff2") format("woff2"), url("./public/font/croissant-one-v8-latin-regular.woff") format("woff"), url("./public/font/croissant-one-v8-latin-regular.ttf") format("truetype"), url("./public/font/croissant-one-v8-latin-regular.svg#CroissantOne") format("svg");
-  /* Legacy iOS */
+  src: local("Croissant One"), local("CroissantOne-Regular"), url("../font/croissant-one-v8-latin-regular.woff") format("woff"), url("./public/font/croissant-one-v8-latin-regular.ttf") format("truetype");
 }
 /* abril-fatface-regular - latin */
 @font-face {
   font-family: "Abril Fatface";
   font-style: normal;
   font-weight: 400;
-  src: url("./public/font/abril-fatface-v11-latin-regular.eot");
-  /* IE9 Compat Modes */
-  src: local("Abril Fatface"), local("AbrilFatface-Regular"), url("./public/font/abril-fatface-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("./public/font/abril-fatface-v11-latin-regular.woff2") format("woff2"), url("./public/font/abril-fatface-v11-latin-regular.woff") format("woff"), url("./public/font/abril-fatface-v11-latin-regular.ttf") format("truetype"), url("./public/font/abril-fatface-v11-latin-regular.svg#AbrilFatface") format("svg");
-  /* Legacy iOS */
+  src: local("Abril Fatface"), local("AbrilFatface-Regular"), url("../font/abril-fatface-v11-latin-regular.woff") format("woff"), url("../font/abril-fatface-v11-latin-regular.ttf") format("truetype");
 }
 /* segoe-print - latin */
 @font-face {
   font-family: "Segoe Print";
   font-style: normal;
   font-weight: 400;
-  src: url("./public/font/Segoe-Print-v1-latin-regular.eot");
-  /* IE9 Compat Modes */
-  src: local("Segoe Print"), local("SegoePrint-Regular"), url("./public/font/Segoe-Print-v1-latin-regular.eot?#iefix") format("embedded-opentype"), url("./public/font/Segoe-Print-v1-latin-regular.woff2") format("woff2"), url("./public/font/Segoe-Print-v1-latin-regular.woff") format("woff"), url("./public/font/Segoe-Print-v1-latin-regular.ttf") format("truetype"), url("./public/font/Segoe-Print-v1-latin-regular.svg#AbrilFatface") format("svg");
-  /* Legacy iOS */
+  src: local("Segoe Print"), local("SegoePrint-Regular"), url("../font/Segoe-Print-v1-latin-regular.woff") format("woff"), url("../font/Segoe-Print-v1-latin-regular.ttf") format("truetype");
 }
 /* pt-serif-regular - latin */
 @font-face {
   font-family: "PT Serif";
   font-style: normal;
   font-weight: 400;
-  src: url("./public/font/pt-serif-v11-latin-regular.eot");
-  /* IE9 Compat Modes */
-  src: local("PT Serif"), local("PTSerif-Regular"), url("./public/font/pt-serif-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("./public/font/pt-serif-v11-latin-regular.woff2") format("woff2"), url("./public/font/pt-serif-v11-latin-regular.woff") format("woff"), url("./public/font/pt-serif-v11-latin-regular.ttf") format("truetype"), url("./public/font/pt-serif-v11-latin-regular.svg#PTSerif") format("svg");
-  /* Legacy iOS */
+  src: local("PT Serif"), local("PTSerif-Regular"), url("../font/pt-serif-v11-latin-regular.woff") format("woff"), url("../font/pt-serif-v11-latin-regular.ttf") format("truetype");
 }
 /* montserrat-regular - latin */
 @font-face {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
-  src: url("./public/font/montserrat-v14-latin-regular.eot");
-  /* IE9 Compat Modes */
-  src: local("Montserrat Regular"), local("Montserrat-Regular"), url("./public/font/montserrat-v14-latin-regular.eot?#iefix") format("embedded-opentype"), url("./public/font/montserrat-v14-latin-regular.woff2") format("woff2"), url("./public/font/montserrat-v14-latin-regular.woff") format("woff"), url("./public/font/montserrat-v14-latin-regular.ttf") format("truetype"), url("./public/font/montserrat-v14-latin-regular.svg#Montserrat") format("svg");
-  /* Legacy iOS */
+  src: local("Montserrat Regular"), local("Montserrat-Regular"), url("../font/montserrat-v14-latin-regular.woff") format("woff"), url("../font/montserrat-v14-latin-regular.ttf") format("truetype");
 }
 /* montserrat-600 - latin */
 @font-face {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
-  src: url("./public/font/montserrat-v14-latin-600.eot");
-  /* IE9 Compat Modes */
-  src: local("Montserrat SemiBold"), local("Montserrat-SemiBold"), url("./public/font/montserrat-v14-latin-600.eot?#iefix") format("embedded-opentype"), url("./public/font/montserrat-v14-latin-600.woff2") format("woff2"), url("./public/font/montserrat-v14-latin-600.woff") format("woff"), url("./public/font/montserrat-v14-latin-600.ttf") format("truetype"), url("./public/font/montserrat-v14-latin-600.svg#Montserrat") format("svg");
-  /* Legacy iOS */
+  src: local("Montserrat SemiBold"), local("Montserrat-SemiBold"), url("../font/montserrat-v14-latin-600.woff") format("woff"), url("../font/montserrat-v14-latin-600.ttf") format("truetype");
 }
 html {
   font-size: 100%;
@@ -111,7 +83,6 @@ body {
 .fas {
   font-size: 4rem;
   background: linear-gradient(to right, #f04a5e, #f78f6a);
-  background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -284,7 +255,6 @@ body {
 .menu__typo3 {
   font-family: "Croissant One", sans-serif;
   background: linear-gradient(to right, #c77412, #905bfd);
-  background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-size: 1.8rem;
@@ -297,7 +267,6 @@ body {
 .menu__typo5 {
   font-family: "Dancing Script", sans-serif;
   background: linear-gradient(to right, #0431df, #3d9ffa);
-  background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-size: 2.5rem;
@@ -306,7 +275,6 @@ body {
   font-family: "Kaushan Script", sans-serif;
   font-size: 2.1rem;
   background: linear-gradient(to right, #3d923a, #beff7f);
-  background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-size: 2.1rem;
@@ -339,7 +307,6 @@ body {
 .carte--titre2 {
   font-family: "Croissant One", sans-serif;
   background: linear-gradient(to right, #c77412, #905bfd);
-  background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-size: 2.5rem;
@@ -352,7 +319,6 @@ body {
 .carte--titre3 {
   font-family: "Dancing Script", sans-serif;
   background: linear-gradient(to right, #0431df, #3d9ffa);
-  background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-size: 3.9rem;
@@ -365,7 +331,6 @@ body {
   font-family: "Kaushan Script", sans-serif;
   font-size: 2.1rem;
   background: linear-gradient(to right, #3d923a, #beff7f);
-  background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-size: 3.9rem;
