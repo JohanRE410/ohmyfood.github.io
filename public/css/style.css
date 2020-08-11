@@ -4,6 +4,7 @@
   font-style: normal;
   font-weight: 400;
   src: local("Ma Shan Zheng"), local("MaShanZheng-Regular"), url("../font/ma-shan-zheng-v5-latin-regular.woff") format("woff"), url("../font/ma-shan-zheng-v5-latin-regular.ttf") format("truetype");
+  /* Safari, Android, iOS */
 }
 /* kaushan-script-regular - latin */
 @font-face {
@@ -11,6 +12,7 @@
   font-style: normal;
   font-weight: 400;
   src: local("Kaushan Script"), local("KaushanScript-Regular"), url("../font/kaushan-script-v8-latin-regular.woff") format("woff"), url("../font/kaushan-script-v8-latin-regular.ttf") format("truetype");
+  /* Safari, Android, iOS */
 }
 /* dancing-script-regular - latin */
 @font-face {
@@ -18,12 +20,15 @@
   font-style: normal;
   font-weight: 400;
   src: local("Dancing Script"), local("DancingScript-Regular"), url("../font/dancing-script-v15-latin-regular.woff") format("woff"), url("../font/dancing-script-v15-latin-regular.ttf") format("truetype");
+  /* Safari, Android, iOS */
 }
 /* croissant-one-regular - latin */
 @font-face {
   font-family: "Croissant One";
   font-style: normal;
+  font-weight: 400;
   src: local("Croissant One"), local("CroissantOne-Regular"), url("../font/croissant-one-v8-latin-regular.woff") format("woff"), url("./public/font/croissant-one-v8-latin-regular.ttf") format("truetype");
+  /* Safari, Android, iOS */
 }
 /* abril-fatface-regular - latin */
 @font-face {
@@ -31,6 +36,7 @@
   font-style: normal;
   font-weight: 400;
   src: local("Abril Fatface"), local("AbrilFatface-Regular"), url("../font/abril-fatface-v11-latin-regular.woff") format("woff"), url("../font/abril-fatface-v11-latin-regular.ttf") format("truetype");
+  /* Safari, Android, iOS */
 }
 /* segoe-print - latin */
 @font-face {
@@ -38,6 +44,7 @@
   font-style: normal;
   font-weight: 400;
   src: local("Segoe Print"), local("SegoePrint-Regular"), url("../font/Segoe-Print-v1-latin-regular.woff") format("woff"), url("../font/Segoe-Print-v1-latin-regular.ttf") format("truetype");
+  /* Safari, Android, iOS */
 }
 /* pt-serif-regular - latin */
 @font-face {
@@ -45,6 +52,7 @@
   font-style: normal;
   font-weight: 400;
   src: local("PT Serif"), local("PTSerif-Regular"), url("../font/pt-serif-v11-latin-regular.woff") format("woff"), url("../font/pt-serif-v11-latin-regular.ttf") format("truetype");
+  /* Safari, Android, iOS */
 }
 /* montserrat-regular - latin */
 @font-face {
@@ -52,6 +60,7 @@
   font-style: normal;
   font-weight: 400;
   src: local("Montserrat Regular"), local("Montserrat-Regular"), url("../font/montserrat-v14-latin-regular.woff") format("woff"), url("../font/montserrat-v14-latin-regular.ttf") format("truetype");
+  /* Safari, Android, iOS */
 }
 /* montserrat-600 - latin */
 @font-face {
@@ -59,6 +68,7 @@
   font-style: normal;
   font-weight: 600;
   src: local("Montserrat SemiBold"), local("Montserrat-SemiBold"), url("../font/montserrat-v14-latin-600.woff") format("woff"), url("../font/montserrat-v14-latin-600.ttf") format("truetype");
+  /* Safari, Android, iOS */
 }
 html {
   font-size: 100%;
