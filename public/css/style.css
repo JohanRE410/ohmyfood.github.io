@@ -56,7 +56,7 @@
 }
 html {
   font-size: 100%;
-  min-width: 320px;
+  min-width: 630px;
 }
 @media screen and (max-width: 960px) {
   html {
@@ -355,6 +355,7 @@ body {
   justify-content: space-between;
   font-size: 1.3rem;
   margin: 1rem auto;
+  text-align: left;
 }
 .table__box th {
   font-weight: normal;
