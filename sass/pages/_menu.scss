@@ -78,13 +78,20 @@ main {
 .choix {
   display: flex;
   justify-content: space-between;
-  width: 90%;
+  width: 85%;
   &__deco {
     width: 33%;
+    align-self: center;
+    height: 1vw;
+  }
+  &__prix {
+    font-weight: bold;
+    font-size: 1.5rem;
   }
   &__titre {
     width: auto;
-    font-size: 1.6rem;
+    font-size: 2rem;
+    font-weight: bold;
     text-decoration: none;
     &--appetit {
       color: $colour-chic1;

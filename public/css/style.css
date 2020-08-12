@@ -72,6 +72,7 @@
 }
 html {
   font-size: 100%;
+  min-width: 675px;
 }
 @media screen and (max-width: 960px) {
   html {
@@ -359,9 +360,10 @@ main .titre--enchantee {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   margin: 3rem;
-  width: 80%;
+  align-items: center;
+  width: 85%;
 }
 .table--chic1 {
   color: #c77412;
@@ -388,14 +390,21 @@ main .titre--enchantee {
 .choix {
   display: flex;
   justify-content: space-between;
-  width: 90%;
+  width: 85%;
 }
 .choix__deco {
   width: 33%;
+  align-self: center;
+  height: 1vw;
+}
+.choix__prix {
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 .choix__titre {
   width: auto;
-  font-size: 1.6rem;
+  font-size: 2rem;
+  font-weight: bold;
   text-decoration: none;
   background: linear-gradient(to top, #000 0%, #000 10%, transparent 10.01%) no-repeat left bottom/0 100%;
   transition: background-size 0.6s;
