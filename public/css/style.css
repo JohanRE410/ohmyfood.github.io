@@ -89,6 +89,13 @@ body {
   font-weight: normal;
 }
 
+.fas--note2 {
+  font-size: 7rem;
+  background: linear-gradient(to right, #f04a5e, #f78f6a);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
 .btn {
   display: inline-block;
   background: #579c87;
