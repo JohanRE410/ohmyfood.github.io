@@ -89,13 +89,6 @@ body {
   font-weight: normal;
 }
 
-.fas {
-  font-size: 12rem;
-  background: linear-gradient(to right, #f04a5e, #f78f6a);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-}
-
 .btn {
   display: inline-block;
   background: #579c87;
@@ -293,6 +286,10 @@ body {
 main {
   margin-bottom: 12rem;
 }
+main .titre--enchantee {
+  font-size: 3rem;
+  padding-bottom: 0;
+}
 
 .carte {
   display: flex;
@@ -300,7 +297,6 @@ main {
   align-items: center;
   width: 78%;
   margin: 1rem auto 6rem;
-  line-height: 4rem;
   box-shadow: 0 0 3rem rgba(88, 157, 136, 0.6);
 }
 .carte--1 {
@@ -378,7 +374,7 @@ main {
 }
 
 .fas--note {
-  font-size: 4rem;
+  font-size: 7rem;
   padding-right: 1rem;
 }
 

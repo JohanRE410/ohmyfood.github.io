@@ -1,5 +1,9 @@
 main {
   margin-bottom: 12rem;
+  .titre--enchantee {
+    font-size: $margin;
+    padding-bottom: 0;
+  }
 }
 .carte {
   @include menu-carte;
@@ -67,7 +71,7 @@ main {
 }
 
 .fas--note {
-  font-size: 4rem;
+  font-size: 7rem;
   padding-right: 1rem;
 }
 
