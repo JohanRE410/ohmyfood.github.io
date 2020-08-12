@@ -363,6 +363,7 @@ main .titre--enchantee {
   font-size: 1.1rem;
   margin: 3rem;
   align-items: center;
+  text-align: left;
   width: 85%;
 }
 .table--chic1 {
