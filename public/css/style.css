@@ -72,7 +72,7 @@
 }
 html {
   font-size: 100%;
-  min-width: 500px;
+  min-width: 460px;
 }
 @media screen and (max-width: 1200px) {
   html {
@@ -110,6 +110,21 @@ body {
   background: linear-gradient(to right, #f04a5e, #f78f6a);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+}
+
+.fas--note1 {
+  font-size: 4rem;
+  background: linear-gradient(to right, #f04a5e, #f78f6a);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.fas--note3 {
+  background: linear-gradient(to right, #f04a5e, #f78f6a);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  padding-right: 1.2rem;
+  align-self: center;
 }
 
 .btn {
