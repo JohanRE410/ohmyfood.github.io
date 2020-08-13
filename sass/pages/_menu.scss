@@ -1,5 +1,5 @@
 main {
-  margin-bottom: 12rem;
+  margin-bottom: 5rem;
   .titre--enchantee {
     font-size: $margin;
     padding-bottom: 0;
@@ -38,6 +38,7 @@ main {
     @include typo-delice;
     font-size: 3.9rem;
     margin: 6rem auto;
+    padding: 0 5px;
   }
   &--4 {
     font-family: "Segoe Print", sans-serif;
@@ -68,11 +69,6 @@ main {
   font-family: "Ma Shan Zheng", sans-serif;
   font-size: 3.1rem;
   align-content: center;
-}
-
-.fas--note {
-  font-size: 7rem;
-  padding-right: 1rem;
 }
 
 .choix {
