@@ -78,29 +78,73 @@ main {
 .choix {
   display: flex;
   justify-content: space-between;
+
   width: 85%;
   &__deco {
     width: 33%;
     align-self: center;
-    height: 1vw;
+    height: 2rem;
+  }
+  &__food {
+    flex-basis: 88%;
+    text-align: left;
+
+    &__free {
+      flex-basis: 100%;
+    }
   }
   &__prix {
     font-weight: bold;
     font-size: 1.5rem;
+    text-align: right;
+    flex-basis: 12%;
   }
   &__titre {
     width: auto;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     text-decoration: none;
     &--appetit {
       color: $colour-chic1;
+      background: linear-gradient(
+          to top,
+          $colour-chic1 0%,
+          $colour-chic1 10%,
+          transparent 10.01%
+        )
+        no-repeat left bottom / 0 100%;
+      transition: background-size 0.6s;
+      &:hover {
+        background-size: 100% 100%;
+      }
     }
     &--plaisir {
       color: $colour-chic3;
+      background: linear-gradient(
+          to top,
+          $colour-chic3 0%,
+          $colour-chic3 10%,
+          transparent 10.01%
+        )
+        no-repeat left bottom / 0 100%;
+      transition: background-size 0.6s;
+      &:hover {
+        background-size: 100% 100%;
+      }
     }
     &--sucree {
       color: $colour-chic2;
+      background: linear-gradient(
+          to top,
+          $colour-chic2 0%,
+          $colour-chic2 10%,
+          transparent 10.01%
+        )
+        no-repeat left bottom / 0 100%;
+      transition: background-size 0.6s;
+      &:hover {
+        background-size: 100% 100%;
+      }
     }
     background: linear-gradient(
         to top,

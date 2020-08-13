@@ -72,11 +72,26 @@
 }
 html {
   font-size: 100%;
-  min-width: 675px;
+  min-width: 500px;
 }
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1200px) {
   html {
     font-size: 67%;
+  }
+}
+@media screen and (max-width: 992px) {
+  html {
+    font-size: 83%;
+  }
+}
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 64%;
+  }
+}
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 50%;
   }
 }
 
@@ -359,11 +374,12 @@ main .titre--enchantee {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
-  font-size: 1.1rem;
+  justify-content: center;
+  font-size: 1.3rem;
   margin: 3rem;
-  align-items: center;
+  align-items: baseline;
   text-align: left;
+  width: 85%;
   width: 85%;
 }
 .table--chic1 {
@@ -396,15 +412,24 @@ main .titre--enchantee {
 .choix__deco {
   width: 33%;
   align-self: center;
-  height: 1vw;
+  height: 2rem;
+}
+.choix__food {
+  flex-basis: 88%;
+  text-align: left;
+}
+.choix__food__free {
+  flex-basis: 100%;
 }
 .choix__prix {
   font-weight: bold;
   font-size: 1.5rem;
+  text-align: right;
+  flex-basis: 12%;
 }
 .choix__titre {
   width: auto;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   text-decoration: none;
   background: linear-gradient(to top, #000 0%, #000 10%, transparent 10.01%) no-repeat left bottom/0 100%;
@@ -412,12 +437,27 @@ main .titre--enchantee {
 }
 .choix__titre--appetit {
   color: #c77412;
+  background: linear-gradient(to top, #c77412 0%, #c77412 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+  transition: background-size 0.6s;
+}
+.choix__titre--appetit:hover {
+  background-size: 100% 100%;
 }
 .choix__titre--plaisir {
   color: #a56799;
+  background: linear-gradient(to top, #a56799 0%, #a56799 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+  transition: background-size 0.6s;
+}
+.choix__titre--plaisir:hover {
+  background-size: 100% 100%;
 }
 .choix__titre--sucree {
   color: #905bfd;
+  background: linear-gradient(to top, #905bfd 0%, #905bfd 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+  transition: background-size 0.6s;
+}
+.choix__titre--sucree:hover {
+  background-size: 100% 100%;
 }
 .choix__titre:hover {
   background-size: 100% 100%;
