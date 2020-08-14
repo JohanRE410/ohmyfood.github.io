@@ -417,7 +417,7 @@ main .titre--enchantee {
 }
 @media screen and (max-width: 768px) {
   .menu {
-    flex-basis: 60%;
+    flex-basis: 62%;
     height: 30rem;
   }
 }
