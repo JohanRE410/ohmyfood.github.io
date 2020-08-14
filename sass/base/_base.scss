@@ -94,16 +94,16 @@
 html {
   font-size: 100%;
   @media screen and (max-width: 1200px) {
-    font-size: 67%;
+    font-size: 80%;
   }
   @media screen and (max-width: 992px) {
-    font-size: 83%;
+    font-size: 66%;
   }
   @media screen and (max-width: 768px) {
-    font-size: 64%;
+    font-size: 51%;
   }
   @media screen and (max-width: 600px) {
-    font-size: 50%;
+    font-size: 40%;
   }
 }
 

@@ -75,22 +75,22 @@ html {
 }
 @media screen and (max-width: 1200px) {
   html {
-    font-size: 67%;
+    font-size: 80%;
   }
 }
 @media screen and (max-width: 992px) {
   html {
-    font-size: 83%;
+    font-size: 66%;
   }
 }
 @media screen and (max-width: 768px) {
   html {
-    font-size: 64%;
+    font-size: 51%;
   }
 }
 @media screen and (max-width: 600px) {
   html {
-    font-size: 50%;
+    font-size: 40%;
   }
 }
 
