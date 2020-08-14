@@ -52,6 +52,9 @@ main {
 
 .table {
   @include table;
+  @media screen and (max-width: 600px) {
+    width: 90%;
+  }
   &--chic1 {
     color: $colour-chic1;
   }

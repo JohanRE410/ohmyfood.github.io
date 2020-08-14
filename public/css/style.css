@@ -202,6 +202,11 @@ main .titre--enchantee {
   text-align: left;
   width: 85%;
 }
+@media screen and (max-width: 600px) {
+  .table {
+    width: 90%;
+  }
+}
 .table--chic1 {
   color: #c77412;
 }
@@ -417,7 +422,7 @@ main .titre--enchantee {
 }
 @media screen and (max-width: 768px) {
   .menu {
-    flex-basis: 65%;
+    flex-basis: 60%;
     height: 30rem;
   }
 }
