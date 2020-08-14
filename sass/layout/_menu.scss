@@ -52,7 +52,6 @@ main {
 
 .table {
   @include table;
-  width: $table-width;
   &--chic1 {
     color: $colour-chic1;
   }

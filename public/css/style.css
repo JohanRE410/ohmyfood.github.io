@@ -72,7 +72,7 @@
 }
 html {
   font-size: 100%;
-  min-width: 290px;
+  min-width: 306px;
 }
 @media screen and (max-width: 1200px) {
   html {
@@ -121,100 +121,156 @@ body {
   letter-spacing: -0.6rem;
 }
 
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+main {
+  margin-bottom: 5rem;
+}
+main .titre--enchantee {
+  font-size: 3rem;
+  padding-bottom: 0;
 }
 
-.menu {
-  box-shadow: 0 0 3rem rgba(88, 157, 136, 0.6);
-  height: 30rem;
-  padding: 3rem;
-  margin: 3rem;
+.carte {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  text-decoration-line: none;
-  flex-basis: 14%;
+  align-items: center;
+  width: 78%;
+  margin: 1rem auto 6rem;
+  box-shadow: 0 0 3rem rgba(88, 157, 136, 0.6);
 }
-@media screen and (max-width: 1750px) {
-  .menu {
-    height: 35rem;
-    flex-basis: 23%;
-  }
-}
-@media screen and (max-width: 992px) {
-  .menu {
-    height: 20rem;
-  }
-}
-@media screen and (max-width: 768px) {
-  .menu {
-    flex-basis: 60%;
-    height: 30rem;
-  }
-}
-.menu__zoom:hover {
-  transform: scale(1.2);
-  transition: all ease 600ms;
-  opacity: 0.6;
-}
-.menu--note {
+.carte--1 {
   background: #fcdfdb;
-}
-.menu--chic {
-  background: #ffe6fc;
-}
-.menu--delice {
-  background: #f2f2f2;
-}
-.menu__typo1 {
-  font-family: "Ma Shan Zheng", sans-serif;
-  font-size: 2rem;
-  color: #000;
-  margin-top: 0;
-}
-.menu__typo2 {
   font-family: "Segoe Print", sans-serif;
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
-.menu__typo2--maj {
-  text-transform: uppercase;
-  color: #000;
+.carte--titre1 {
+  font-family: "Ma Shan Zheng", sans-serif;
+  display: flex;
+  flex-direction: column;
+  font-size: 3.1rem;
 }
-.menu__typo2--delice {
-  color: #0431df;
+.carte--2 {
+  background: #ffe6fc;
+  font-family: "PT Serif", serif;
 }
-.menu__typo2--palette {
-  color: #3d923a;
-}
-.menu__typo3 {
+.carte--titre2 {
   font-family: "Croissant One", sans-serif;
   background: linear-gradient(to right, #c77412, #905bfd);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
+  margin: 6rem auto;
 }
-.menu__typo4 {
-  font-family: "PT Serif", serif;
-  font-size: 2.2rem;
-  color: #c77412;
+.carte--3 {
+  background: #f2f2f2;
+  font-family: "Segoe Print", sans-serif;
 }
-.menu__typo5 {
+.carte--titre3 {
   font-family: "Dancing Script", sans-serif;
   background: linear-gradient(to right, #0431df, #3d9ffa);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  font-size: 2.5rem;
+  font-size: 3.9rem;
+  margin: 6rem auto;
+  padding: 0 5px;
 }
-.menu__typo6 {
+.carte--4 {
+  font-family: "Segoe Print", sans-serif;
+}
+.carte--titre4 {
   font-family: "Kaushan Script", sans-serif;
   font-size: 2.1rem;
   background: linear-gradient(to right, #3d923a, #beff7f);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  font-size: 2.1rem;
+  font-size: 3.9rem;
+  margin: 6rem auto;
+}
+
+.table {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 1.3rem;
+  margin: 3rem;
+  align-items: baseline;
+  text-align: left;
+  width: 85%;
+}
+.table--chic1 {
+  color: #c77412;
+}
+.table--chic2 {
+  color: #905bfd;
+}
+.table--chic3 {
+  color: #a56799;
+}
+
+.note {
+  display: flex;
+  font-family: "Ma Shan Zheng", sans-serif;
+  font-size: 3.1rem;
+  align-content: center;
+}
+
+.choix {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+}
+.choix__deco {
+  width: 33%;
+  align-self: center;
+  height: 2rem;
+}
+.choix__food {
+  flex-basis: 88%;
+  text-align: left;
+}
+.choix__food__free {
+  flex-basis: 100%;
+}
+.choix__prix {
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: right;
+  flex-basis: 12%;
+}
+.choix__titre {
+  width: auto;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  background: linear-gradient(to top, #000 0%, #000 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+  transition: background-size 0.6s;
+}
+.choix__titre--appetit {
+  color: #c77412;
+  background: linear-gradient(to top, #c77412 0%, #c77412 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+  transition: background-size 0.6s;
+}
+.choix__titre--appetit:hover {
+  background-size: 100% 100%;
+}
+.choix__titre--plaisir {
+  color: #a56799;
+  background: linear-gradient(to top, #a56799 0%, #a56799 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+  transition: background-size 0.6s;
+}
+.choix__titre--plaisir:hover {
+  background-size: 100% 100%;
+}
+.choix__titre--sucree {
+  color: #905bfd;
+  background: linear-gradient(to top, #905bfd 0%, #905bfd 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+  transition: background-size 0.6s;
+}
+.choix__titre--sucree:hover {
+  background-size: 100% 100%;
+}
+.choix__titre:hover {
+  background-size: 100% 100%;
 }
 
 .btn {
@@ -326,157 +382,100 @@ body {
   padding-right: 40px;
 }
 
-main {
-  margin-bottom: 5rem;
-}
-main .titre--enchantee {
-  font-size: 3rem;
-  padding-bottom: 0;
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.carte {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 78%;
-  margin: 1rem auto 6rem;
+.menu {
   box-shadow: 0 0 3rem rgba(88, 157, 136, 0.6);
-}
-.carte--1 {
-  background: #fcdfdb;
-  font-family: "Segoe Print", sans-serif;
-  font-size: 1.2rem;
-}
-.carte--titre1 {
-  font-family: "Ma Shan Zheng", sans-serif;
+  height: 30rem;
+  padding: 3rem;
+  margin: 3rem;
   display: flex;
   flex-direction: column;
-  font-size: 3.1rem;
+  justify-content: center;
+  text-decoration-line: none;
+  flex-basis: 14%;
 }
-.carte--2 {
+@media screen and (max-width: 1750px) {
+  .menu {
+    height: 35rem;
+    flex-basis: 23%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .menu {
+    height: 20rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .menu {
+    flex-basis: 60%;
+    height: 30rem;
+  }
+}
+.menu__zoom:hover {
+  transform: scale(1.2);
+  transition: all ease 600ms;
+  opacity: 0.6;
+}
+.menu--note {
+  background: #fcdfdb;
+}
+.menu--chic {
   background: #ffe6fc;
-  font-family: "PT Serif", serif;
 }
-.carte--titre2 {
+.menu--delice {
+  background: #f2f2f2;
+}
+.menu__typo1 {
+  font-family: "Ma Shan Zheng", sans-serif;
+  font-size: 2rem;
+  color: #000;
+  margin-top: 0;
+}
+.menu__typo2 {
+  font-family: "Segoe Print", sans-serif;
+  font-size: 2rem;
+}
+.menu__typo2--maj {
+  text-transform: uppercase;
+  color: #000;
+}
+.menu__typo2--delice {
+  color: #0431df;
+}
+.menu__typo2--palette {
+  color: #3d923a;
+}
+.menu__typo3 {
   font-family: "Croissant One", sans-serif;
   background: linear-gradient(to right, #c77412, #905bfd);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  font-size: 2.5rem;
-  margin: 6rem auto;
+  font-size: 1.8rem;
 }
-.carte--3 {
-  background: #f2f2f2;
-  font-family: "Segoe Print", sans-serif;
+.menu__typo4 {
+  font-family: "PT Serif", serif;
+  font-size: 2.2rem;
+  color: #c77412;
 }
-.carte--titre3 {
+.menu__typo5 {
   font-family: "Dancing Script", sans-serif;
   background: linear-gradient(to right, #0431df, #3d9ffa);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  font-size: 3.9rem;
-  margin: 6rem auto;
-  padding: 0 5px;
+  font-size: 2.5rem;
 }
-.carte--4 {
-  font-family: "Segoe Print", sans-serif;
-}
-.carte--titre4 {
+.menu__typo6 {
   font-family: "Kaushan Script", sans-serif;
   font-size: 2.1rem;
   background: linear-gradient(to right, #3d923a, #beff7f);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  font-size: 3.9rem;
-  margin: 6rem auto;
-}
-
-.table {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  font-size: 1.3rem;
-  margin: 3rem;
-  align-items: baseline;
-  text-align: left;
-  width: 85%;
-  width: 85%;
-}
-.table--chic1 {
-  color: #c77412;
-}
-.table--chic2 {
-  color: #905bfd;
-}
-.table--chic3 {
-  color: #a56799;
-}
-
-.note {
-  display: flex;
-  font-family: "Ma Shan Zheng", sans-serif;
-  font-size: 3.1rem;
-  align-content: center;
-}
-
-.choix {
-  display: flex;
-  justify-content: space-between;
-  width: 85%;
-}
-.choix__deco {
-  width: 33%;
-  align-self: center;
-  height: 2rem;
-}
-.choix__food {
-  flex-basis: 88%;
-  text-align: left;
-}
-.choix__food__free {
-  flex-basis: 100%;
-}
-.choix__prix {
-  font-weight: bold;
-  font-size: 1.5rem;
-  text-align: right;
-  flex-basis: 12%;
-}
-.choix__titre {
-  width: auto;
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-decoration: none;
-  background: linear-gradient(to top, #000 0%, #000 10%, transparent 10.01%) no-repeat left bottom/0 100%;
-  transition: background-size 0.6s;
-}
-.choix__titre--appetit {
-  color: #c77412;
-  background: linear-gradient(to top, #c77412 0%, #c77412 10%, transparent 10.01%) no-repeat left bottom/0 100%;
-  transition: background-size 0.6s;
-}
-.choix__titre--appetit:hover {
-  background-size: 100% 100%;
-}
-.choix__titre--plaisir {
-  color: #a56799;
-  background: linear-gradient(to top, #a56799 0%, #a56799 10%, transparent 10.01%) no-repeat left bottom/0 100%;
-  transition: background-size 0.6s;
-}
-.choix__titre--plaisir:hover {
-  background-size: 100% 100%;
-}
-.choix__titre--sucree {
-  color: #905bfd;
-  background: linear-gradient(to top, #905bfd 0%, #905bfd 10%, transparent 10.01%) no-repeat left bottom/0 100%;
-  transition: background-size 0.6s;
-}
-.choix__titre--sucree:hover {
-  background-size: 100% 100%;
-}
-.choix__titre:hover {
-  background-size: 100% 100%;
+  font-size: 2.1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
