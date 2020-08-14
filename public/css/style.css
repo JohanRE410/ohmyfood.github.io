@@ -72,7 +72,6 @@
 }
 html {
   font-size: 100%;
-  min-width: 384px;
 }
 @media screen and (max-width: 1200px) {
   html {
