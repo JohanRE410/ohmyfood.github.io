@@ -126,22 +126,22 @@ body {
   letter-spacing: -0.6rem;
 }
 
-main {
+.main {
   margin-bottom: 5rem;
 }
-main .titre--enchantee {
+.main .titre--enchantee {
   font-size: 3rem;
   padding-bottom: 0;
 }
-main .titre--chic {
+.main .titre--chic {
   font-size: 3rem;
   padding-bottom: 0;
 }
-main .titre--delice {
+.main .titre--delice {
   font-size: 3rem;
   padding-bottom: 0;
 }
-main .titre--palette {
+.main .titre--palette {
   font-size: 3rem;
   padding-bottom: 0;
 }
