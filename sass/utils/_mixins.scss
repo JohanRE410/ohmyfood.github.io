@@ -86,7 +86,7 @@
 @mixin footer-link {
   text-decoration-line: none;
   color: $colour-primary;
-  font-size: 1.3rem;
+  font-size: 2rem;
   padding-right: 40px;
 }
 
@@ -118,7 +118,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  font-size: 1.3rem;
+  font-size: 1.7rem;
   margin: $margin;
   align-items: baseline;
   text-align: left;

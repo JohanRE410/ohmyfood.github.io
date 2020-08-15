@@ -22,13 +22,12 @@
   &--1 {
     background: $colour-bloc1;
     font-family: "Segoe Print", sans-serif;
-    font-size: 1.2rem;
   }
   &--titre1 {
     font-family: "Ma Shan Zheng", sans-serif;
     display: flex;
     flex-direction: column;
-    font-size: 3.1rem;
+    font-size: 4rem;
   }
 
   &--2 {
@@ -37,7 +36,7 @@
   }
   &--titre2 {
     @include typo-chic;
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     margin: 6rem auto;
   }
 
@@ -48,7 +47,7 @@
 
   &--titre3 {
     @include typo-delice;
-    font-size: 3.9rem;
+    font-size: 4rem;
     margin: 6rem auto;
     padding: 0 5px;
   }
@@ -57,7 +56,7 @@
   }
   &--titre4 {
     @include typo-palette;
-    font-size: 3.9rem;
+    font-size: 4rem;
     margin: 6rem auto;
   }
 }
@@ -81,7 +80,7 @@
 .note {
   display: flex;
   font-family: "Ma Shan Zheng", sans-serif;
-  font-size: 3.1rem;
+  font-size: 4rem;
   align-content: center;
 }
 
@@ -111,7 +110,7 @@
   }
   &__titre {
     width: auto;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
     text-decoration: none;
     &--appetit {

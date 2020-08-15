@@ -22,13 +22,13 @@
   }
   &__typo1 {
     font-family: "Ma Shan Zheng", sans-serif;
-    font-size: 2rem;
+    font-size: 3rem;
     color: $colour-black;
     margin-top: 0;
   }
   &__typo2 {
     font-family: "Segoe Print", sans-serif;
-    font-size: 2rem;
+    font-size: 3.2rem;
     &--maj {
       text-transform: uppercase;
       color: $colour-black;
@@ -42,19 +42,19 @@
   }
   &__typo3 {
     @include typo-chic;
-    font-size: 1.8rem;
+    font-size: 2.4rem;
   }
   &__typo4 {
     font-family: "PT Serif", serif;
-    font-size: 2.2rem;
+    font-size: 3.2rem;
     color: $colour-chic1;
   }
   &__typo5 {
     @include typo-delice;
-    font-size: 2.5rem;
+    font-size: 3.2rem;
   }
   &__typo6 {
     @include typo-palette;
-    font-size: 2.1rem;
+    font-size: 3rem;
   }
 }
