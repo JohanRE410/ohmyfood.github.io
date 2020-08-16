@@ -28,20 +28,17 @@
   font-size: 7rem;
   background: linear-gradient(to right, $colour-note1, $colour-note2);
   -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
 }
 
 .fas--note1 {
   font-size: 4rem;
   background: linear-gradient(to right, $colour-note1, $colour-note2);
   -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
 }
 
 .fas--note3 {
   background: linear-gradient(to right, $colour-note1, $colour-note2);
   -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
   padding-right: 1.2rem;
   align-self: center;
 }
