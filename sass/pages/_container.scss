@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu {
+  @include bloc;
+  &__zoom:hover {
+    transform: scale(1.2);
+    transition: all ease 600ms;
+    opacity: 0.6;
+  }
+  &--note {
+    background: $colour-bloc1;
+  }
+  &--chic {
+    background: $colour-bloc2;
+  }
+  &--delice {
+    background: $colour-bloc3;
+  }
+  &__typo1 {
+    font-family: "Devonshire", sans-serif;
+    font-size: 3rem;
+    color: $colour-black;
+    margin-top: 0;
+  }
+  &__typo2 {
+    font-family: "Segoe Print", sans-serif;
+    font-size: 3.2rem;
+    &--maj {
+      text-transform: uppercase;
+      color: $colour-black;
+    }
+    &--delice {
+      color: $colour-delice1;
+    }
+    &--palette {
+      color: $colour-palette1;
+    }
+  }
+  &__typo3 {
+    @include typo-chic;
+    font-size: 2.4rem;
+  }
+  &__typo4 {
+    font-family: "PT Serif", serif;
+    font-size: 3.2rem;
+    color: $colour-chic1;
+  }
+  &__typo5 {
+    @include typo-delice;
+    font-size: 3.2rem;
+  }
+  &__typo6 {
+    @include typo-palette;
+    font-size: 3rem;
+  }
+}

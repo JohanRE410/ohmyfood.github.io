@@ -1,66 +1,102 @@
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  src: url("./public/font/ma-shan-zheng-v5-latin-regular.eot");
-  src: local("Ma Shan Zheng"), local("MaShanZheng-Regular"), url("./public/font/ma-shan-zheng-v5-latin-regular.eot?#iefix") format("embedded-opentype"), url("./public/font/ma-shan-zheng-v5-latin-regular.woff2") format("woff2"), url("./public/font/ma-shan-zheng-v5-latin-regular.woff") format("woff"), url("./public/font/ma-shan-zheng-v5-latin-regular.ttf") format("truetype"), url("./public/font/ma-shan-zheng-v5-latin-regular.svg#MaShanZheng") format("svg");
-}
+/* kaushan-script-regular - latin */
 @font-face {
   font-family: "Kaushan Script";
   font-style: normal;
   font-weight: 400;
-  src: url("./puplic/font/kaushan-script-v8-latin-regular.eot");
-  src: local("Kaushan Script"), local("KaushanScript-Regular"), url("./puplic/font/kaushan-script-v8-latin-regular.eot?#iefix") format("embedded-opentype"), url("./puplic/font/kaushan-script-v8-latin-regular.woff2") format("woff2"), url("./puplic/font/kaushan-script-v8-latin-regular.woff") format("woff"), url("./puplic/font/kaushan-script-v8-latin-regular.ttf") format("truetype"), url("./puplic/font/kaushan-script-v8-latin-regular.svg#KaushanScript") format("svg");
+  src: local("Kaushan Script"), local("KaushanScript-Regular"), url("../font/kaushan-script-v8-latin-regular.woff") format("woff"), url("../font/kaushan-script-v8-latin-regular.ttf") format("truetype");
+  /* Safari, Android, iOS */
 }
+/* dancing-script-regular - latin */
 @font-face {
   font-family: "Dancing Script";
   font-style: normal;
   font-weight: 400;
-  src: url("./public/font/dancing-script-v15-latin-regular.eot");
-  src: local("Dancing Script"), local("DancingScript-Regular"), url("./public/font/dancing-script-v15-latin-regular.eot?#iefix") format("embedded-opentype"), url("./public/font/dancing-script-v15-latin-regular.woff2") format("woff2"), url("./public/font/dancing-script-v15-latin-regular.woff") format("woff"), url("./public/font/dancing-script-v15-latin-regular.ttf") format("truetype"), url("./public/font/dancing-script-v15-latin-regular.svg#DancingScript") format("svg");
+  src: local("Dancing Script"), local("DancingScript-Regular"), url("../font/dancing-script-v15-latin-regular.woff") format("woff"), url("../font/dancing-script-v15-latin-regular.ttf") format("truetype");
+  /* Safari, Android, iOS */
 }
+/* croissant-one-regular - latin */
 @font-face {
   font-family: "Croissant One";
   font-style: normal;
   font-weight: 400;
-  src: url("./public/font/croissant-one-v8-latin-regular.eot");
-  src: local("Croissant One"), local("CroissantOne-Regular"), url("./public/font/croissant-one-v8-latin-regular.eot?#iefix") format("embedded-opentype"), url("./public/font/croissant-one-v8-latin-regular.woff2") format("woff2"), url("./public/font/croissant-one-v8-latin-regular.woff") format("woff"), url("./public/font/croissant-one-v8-latin-regular.ttf") format("truetype"), url("./public/font/croissant-one-v8-latin-regular.svg#CroissantOne") format("svg");
+  src: local("Croissant One"), local("CroissantOne-Regular"), url("../font/croissant-one-v8-latin-regular.woff") format("woff"), url("./public/font/croissant-one-v8-latin-regular.ttf") format("truetype");
+  /* Safari, Android, iOS */
 }
+/* abril-fatface-regular - latin */
+@font-face {
+  font-family: "Abril Fatface";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Abril Fatface"), local("AbrilFatface-Regular"), url("../font/abril-fatface-v11-latin-regular.woff") format("woff"), url("../font/abril-fatface-v11-latin-regular.ttf") format("truetype");
+  /* Safari, Android, iOS */
+}
+/* segoe-print - latin */
 @font-face {
   font-family: "Segoe Print";
   font-style: normal;
   font-weight: 400;
-  src: url("./public/font/Segoe-Print-v1-latin-regular.eot");
-  src: local("Segoe Print"), local("SegoePrint-Regular"), url("./public/font/Segoe-Print-v1-latin-regular.eot?#iefix") format("embedded-opentype"), url("./public/font/Segoe-Print-v1-latin-regular.woff2") format("woff2"), url("./public/font/Segoe-Print-v1-latin-regular.woff") format("woff"), url("./public/font/Segoe-Print-v1-latin-regular.ttf") format("truetype"), url("./public/font/Segoe-Print-v1-latin-regular.svg#AbrilFatface") format("svg");
+  src: local("Segoe Print"), local("SegoePrint-Regular"), url("../font/Segoe-Print-v1-latin-regular.woff") format("woff"), url("../font/Segoe-Print-v1-latin-regular.ttf") format("truetype");
+  /* Safari, Android, iOS */
 }
-@font-face {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 400;
-  src: url("./public/font/montserrat-v14-latin-regular.eot");
-  src: local("Montserrat Regular"), local("Montserrat-Regular"), url("./public/font/montserrat-v14-latin-regular.eot?#iefix") format("embedded-opentype"), url("./public/font/montserrat-v14-latin-regular.woff2") format("woff2"), url("./public/font/montserrat-v14-latin-regular.woff") format("woff"), url("./public/font/montserrat-v14-latin-regular.ttf") format("truetype"), url("./public/font/montserrat-v14-latin-regular.svg#Montserrat") format("svg");
-}
-@font-face {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 600;
-  src: url("./public/font/montserrat-v14-latin-600.eot");
-  src: local("Montserrat SemiBold"), local("Montserrat-SemiBold"), url("./public/font/montserrat-v14-latin-600.eot?#iefix") format("embedded-opentype"), url("./public/font/montserrat-v14-latin-600.woff2") format("woff2"), url("./public/font/montserrat-v14-latin-600.woff") format("woff"), url("./public/font/montserrat-v14-latin-600.ttf") format("truetype"), url("./public/font/montserrat-v14-latin-600.svg#Montserrat") format("svg");
-}
+/* pt-serif-regular - latin */
 @font-face {
   font-family: "PT Serif";
   font-style: normal;
   font-weight: 400;
-  src: url("./public/font/pt-serif-v11-latin-regular.eot");
-  src: local("PT Serif"), local("PTSerif-Regular"), url("./public/font/pt-serif-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("./public/font/pt-serif-v11-latin-regular.woff2") format("woff2"), url("./public/font/pt-serif-v11-latin-regular.woff") format("woff"), url("./public/font/pt-serif-v11-latin-regular.ttf") format("truetype"), url("./public/font/pt-serif-v11-latin-regular.svg#PTSerif") format("svg");
+  src: local("PT Serif"), local("PTSerif-Regular"), url("../font/pt-serif-v11-latin-regular.woff") format("woff"), url("../font/pt-serif-v11-latin-regular.ttf") format("truetype");
+  /* Safari, Android, iOS */
+}
+/* montserrat-regular - latin */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat Regular"), local("Montserrat-Regular"), url("../font/montserrat-v14-latin-regular.woff") format("woff"), url("../font/montserrat-v14-latin-regular.ttf") format("truetype");
+  /* Safari, Android, iOS */
+}
+/* montserrat-600 - latin */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Montserrat SemiBold"), local("Montserrat-SemiBold"), url("../font/montserrat-v14-latin-600.woff") format("woff"), url("../font/montserrat-v14-latin-600.ttf") format("truetype");
+  /* Safari, Android, iOS */
+}
+/* devonshire-regular - latin */
+@font-face {
+  font-family: "Devonshire";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Devonshire-Regular"), url("../font/devonshire-v9-latin-regular.woff") format("woff"), url("../font/devonshire-v9-latin-regular.ttf") format("truetype");
+  /* Safari, Android, iOS */
 }
 html {
   font-size: 100%;
   min-width: 320px;
 }
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1200px) {
   html {
-    font-size: 67%;
+    font-size: 90%;
+  }
+}
+@media screen and (max-width: 992px) {
+  html {
+    font-size: 76%;
+  }
+}
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 61%;
+  }
+}
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 35%;
   }
 }
 
@@ -74,20 +110,196 @@ body {
   font-weight: normal;
 }
 
-.fas {
+.logo {
+  background: #579c87;
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+.logo__titre {
+  color: #fdcb46;
+  font-family: "Montserrat SemiBold", sans-serif;
+  font-size: 7rem;
+  letter-spacing: -0.6rem;
+}
+
+.main {
+  margin-bottom: 5rem;
+}
+.main .titre--enchantee {
+  font-size: 3rem;
+  padding-bottom: 0;
+}
+.main .titre--chic {
+  font-size: 3rem;
+  padding-bottom: 0;
+}
+.main .titre--delice {
+  font-size: 3rem;
+  padding-bottom: 0;
+}
+.main .titre--palette {
+  font-size: 3rem;
+  padding-bottom: 0;
+}
+
+.carte {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 78%;
+  margin: 1rem auto 6rem;
+  box-shadow: 0 0 3rem rgba(88, 157, 136, 0.6);
+}
+.carte--1 {
+  background: #fcdfdb;
+  font-family: "Segoe Print", sans-serif;
+}
+.carte--titre1 {
+  font-family: "Devonshire", sans-serif;
+  display: flex;
+  flex-direction: column;
   font-size: 4rem;
-  background: linear-gradient(to right, #f04a5e, #f78f6a);
-  -webkit-background-clip: text;
+}
+.carte--2 {
+  background: #ffe6fc;
+  font-family: "PT Serif", serif;
+}
+.carte--titre2 {
+  font-family: "Croissant One", sans-serif;
+  background: linear-gradient(to right, #c77412, #905bfd);
   -webkit-text-fill-color: transparent;
-  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 2.7rem;
+  margin: 6rem auto;
+}
+.carte--3 {
+  background: #f2f2f2;
+  font-family: "Segoe Print", sans-serif;
+}
+.carte--titre3 {
+  font-family: "Dancing Script", sans-serif;
+  background: linear-gradient(to right, #0431df, #3d9ffa);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 4rem;
+  margin: 6rem auto;
+  padding: 0 5px;
+}
+.carte--4 {
+  font-family: "Segoe Print", sans-serif;
+}
+.carte--titre4 {
+  font-family: "Kaushan Script", sans-serif;
+  font-size: 2.1rem;
+  background: linear-gradient(to right, #3d923a, #beff7f);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 4rem;
+  margin: 6rem auto;
+}
+
+.table {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 1.7rem;
+  margin: 3rem;
+  align-items: baseline;
+  text-align: left;
+  width: 85%;
+}
+@media screen and (max-width: 600px) {
+  .table {
+    width: 90%;
+  }
+}
+.table--chic1 {
+  color: #c77412;
+}
+.table--chic2 {
+  color: #905bfd;
+}
+.table--chic3 {
+  color: #a56799;
+}
+
+.note {
+  display: flex;
+  font-family: "Devonshire", sans-serif;
+  font-size: 4rem;
+  align-content: center;
+}
+
+.choix {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+}
+.choix__deco {
+  width: 33%;
+  align-self: center;
+  height: 2rem;
+}
+.choix__food {
+  flex-basis: 88%;
+  text-align: left;
+}
+.choix__food__free {
+  flex-basis: 100%;
+}
+.choix__prix {
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: right;
+  flex-basis: 12%;
+}
+.choix__titre {
+  width: auto;
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+  background: linear-gradient(to top, #000 0%, #000 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+  transition: background-size 0.6s;
+}
+.choix__titre--appetit {
+  color: #c77412;
+  background: linear-gradient(to top, #c77412 0%, #c77412 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+  transition: background-size 0.6s;
+}
+.choix__titre--appetit:hover {
+  background-size: 100% 100%;
+}
+.choix__titre--plaisir {
+  color: #a56799;
+  background: linear-gradient(to top, #a56799 0%, #a56799 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+  transition: background-size 0.6s;
+}
+.choix__titre--plaisir:hover {
+  background-size: 100% 100%;
+}
+.choix__titre--sucree {
+  color: #905bfd;
+  background: linear-gradient(to top, #905bfd 0%, #905bfd 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+  transition: background-size 0.6s;
+}
+.choix__titre--sucree:hover {
+  background-size: 100% 100%;
+}
+.choix__titre:hover {
+  background-size: 100% 100%;
 }
 
 .btn {
   display: inline-block;
   background: #579c87;
-  border-radius: 1rem;
-  margin: 1rem auto 5rem;
-  height: 8rem;
+  border-radius: 2rem;
+  margin: 3rem auto 10rem;
+  height: 9rem;
   padding: 0 4rem;
 }
 .btn__mess {
@@ -128,20 +340,26 @@ body {
   animation-delay: 1400ms;
 }
 
-.logo {
-  background: #579c87;
-  height: 8rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  margin-bottom: 1rem;
+.fas--note2 {
+  font-size: 7rem;
+  background: linear-gradient(to right, #f04a5e, #f78f6a);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
-.logo__titre {
-  color: #fdcb46;
-  font-family: "Montserrat SemiBold", sans-serif;
-  font-size: 6rem;
-  letter-spacing: -0.3rem;
+
+.fas--note1 {
+  font-size: 4rem;
+  background: linear-gradient(to right, #f04a5e, #f78f6a);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.fas--note3 {
+  background: linear-gradient(to right, #f04a5e, #f78f6a);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  padding-right: 1.2rem;
+  align-self: center;
 }
 
 .footer {
@@ -150,6 +368,7 @@ body {
   position: fixed;
   bottom: 0;
   max-width: 1920px;
+  margin-top: 1rem;
 }
 
 .nav {
@@ -180,7 +399,7 @@ body {
 .nav__link {
   text-decoration-line: none;
   color: #fdcb46;
-  font-size: 1.3rem;
+  font-size: 2rem;
   padding-right: 40px;
 }
 
@@ -191,25 +410,30 @@ body {
 }
 
 .menu {
-  box-shadow: 0 0 1rem rgba(88, 157, 136, 0.6);
+  box-shadow: 0 0 3rem rgba(88, 157, 136, 0.6);
   height: 30rem;
-  padding: 1rem;
-  margin: 1rem;
+  padding: 3rem;
+  margin: 3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 32%;
   text-decoration-line: none;
+  flex-basis: 14%;
 }
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1750px) {
   .menu {
-    width: 36%;
-    height: 40rem;
+    height: 35rem;
+    flex-basis: 23%;
   }
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 992px) {
   .menu {
-    width: 72%;
+    height: 20rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .menu {
+    flex-basis: 60%;
     height: 30rem;
   }
 }
@@ -228,14 +452,14 @@ body {
   background: #f2f2f2;
 }
 .menu__typo1 {
-  font-family: "Ma Shan Zheng", sans-serif;
-  font-size: 2rem;
+  font-family: "Devonshire", sans-serif;
+  font-size: 3rem;
   color: #000;
   margin-top: 0;
 }
 .menu__typo2 {
   font-family: "Segoe Print", sans-serif;
-  font-size: 2rem;
+  font-size: 3.2rem;
 }
 .menu__typo2--maj {
   text-transform: uppercase;
@@ -250,154 +474,29 @@ body {
 .menu__typo3 {
   font-family: "Croissant One", sans-serif;
   background: linear-gradient(to right, #c77412, #905bfd);
-  background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  font-size: 1.8rem;
+  font-size: 2.4rem;
 }
 .menu__typo4 {
   font-family: "PT Serif", serif;
-  font-size: 2.2rem;
+  font-size: 3.2rem;
   color: #c77412;
 }
 .menu__typo5 {
   font-family: "Dancing Script", sans-serif;
   background: linear-gradient(to right, #0431df, #3d9ffa);
-  background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  font-size: 2.5rem;
+  font-size: 3.2rem;
 }
 .menu__typo6 {
   font-family: "Kaushan Script", sans-serif;
   font-size: 2.1rem;
   background: linear-gradient(to right, #3d923a, #beff7f);
-  background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  font-size: 2.1rem;
-}
-
-.carte {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 95%;
-  margin: 1rem auto 6rem;
-  line-height: 4rem;
-  box-shadow: 0 0 1rem rgba(88, 157, 136, 0.6);
-}
-.carte--1 {
-  background: #fcdfdb;
-  font-family: "Segoe Print", sans-serif;
-  font-size: 1.2rem;
-}
-.carte--titre1 {
-  font-family: "Ma Shan Zheng", sans-serif;
-  display: flex;
-  flex-direction: column;
-  font-size: 3.1rem;
-}
-.carte--2 {
-  background: #ffe6fc;
-  font-family: "PT Serif", serif;
-}
-.carte--titre2 {
-  font-family: "Croissant One", sans-serif;
-  background: linear-gradient(to right, #c77412, #905bfd);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  font-size: 2.5rem;
-  margin: 6rem auto;
-}
-.carte--3 {
-  background: #f2f2f2;
-  font-family: "Segoe Print", sans-serif;
-}
-.carte--titre3 {
-  font-family: "Dancing Script", sans-serif;
-  background: linear-gradient(to right, #0431df, #3d9ffa);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  font-size: 3.9rem;
-  margin: 6rem auto;
-}
-.carte--4 {
-  font-family: "Segoe Print", sans-serif;
-}
-.carte--titre4 {
-  font-family: "Kaushan Script", sans-serif;
-  font-size: 2.1rem;
-  background: linear-gradient(to right, #3d923a, #beff7f);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  font-size: 3.9rem;
-  margin: 6rem auto;
-}
-
-.table {
-  width: 80%;
-}
-.table--chic1 {
-  color: #c77412;
-}
-.table--chic2 {
-  color: #905bfd;
-}
-.table--chic3 {
-  color: #a56799;
-}
-.table__box {
-  display: flex;
-  justify-content: space-between;
-  font-size: 1.3rem;
-  margin: 1rem auto;
-}
-.table__box th {
-  font-weight: normal;
-}
-
-.note {
-  display: flex;
-  font-family: "Ma Shan Zheng", sans-serif;
-  font-size: 3.1rem;
-  align-content: center;
-}
-
-.fas--note {
-  font-size: 4rem;
-  padding-right: 1rem;
-}
-
-.choix {
-  display: flex;
-  justify-content: space-between;
-  width: 90%;
-}
-.choix__deco {
-  width: 33%;
-}
-.choix__titre {
-  width: auto;
-  font-size: 1.6rem;
-  text-decoration: none;
-  background: linear-gradient(to top, #000 0%, #000 10%, transparent 10.01%) no-repeat left bottom/0 100%;
-  transition: background-size 0.6s;
-}
-.choix__titre--appetit {
-  color: #c77412;
-}
-.choix__titre--plaisir {
-  color: #a56799;
-}
-.choix__titre--sucree {
-  color: #905bfd;
-}
-.choix__titre:hover {
-  background-size: 100% 100%;
+  font-size: 3rem;
 }
 
 /*# sourceMappingURL=style.css.map */
