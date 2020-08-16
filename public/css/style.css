@@ -86,17 +86,12 @@ html {
 }
 @media screen and (max-width: 768px) {
   html {
-    font-size: 61%;
+    font-size: 60%;
   }
 }
 @media screen and (max-width: 600px) {
   html {
-    font-size: 50%;
-  }
-}
-@media screen and (max-width: 480px) {
-  html {
-    font-size: 35%;
+    font-size: 37%;
   }
 }
 
