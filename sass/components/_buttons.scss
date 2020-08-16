@@ -2,7 +2,7 @@
   display: inline-block;
   background: $colour-secondary;
   border-radius: 2rem;
-  margin: 0 auto 10rem;
+  margin: $margin auto 10rem;
   height: 9rem;
   padding: 0 4rem;
   &__mess {
