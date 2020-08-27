@@ -157,7 +157,7 @@ body {
   font-family: "Devonshire", sans-serif;
   display: flex;
   flex-direction: column;
-  font-size: 3.5rem;
+  font-size: 3.2rem;
 }
 .carte--2 {
   background: #ffe6fc;
@@ -226,7 +226,7 @@ body {
 .note {
   display: flex;
   font-family: "Devonshire", sans-serif;
-  font-size: 3.5rem;
+  font-size: 3.2rem;
   align-content: center;
 }
 
