@@ -1,0 +1,170 @@
+.main {
+  margin-bottom: 10rem;
+  .titre--enchantee {
+    font-size: $margin;
+    padding-bottom: 0;
+  }
+  .titre--chic {
+    font-size: $margin;
+    padding-bottom: 0;
+  }
+  .titre--delice {
+    font-size: $margin;
+    padding-bottom: 0;
+  }
+  .titre--palette {
+    font-size: $margin;
+    padding-bottom: 0;
+  }
+}
+.carte {
+  @include menu-carte;
+  &--1 {
+    background: $colour-bloc1;
+    font-family: "Segoe Print", sans-serif;
+  }
+  &--titre1 {
+    font-family: "Devonshire", sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-size: 4rem;
+  }
+
+  &--2 {
+    background: $colour-bloc2;
+    font-family: "PT Serif", serif;
+  }
+  &--titre2 {
+    @include typo-chic;
+    font-size: 2.7rem;
+    margin: 6rem auto;
+  }
+
+  &--3 {
+    background: $colour-bloc3;
+    font-family: "Segoe Print", sans-serif;
+  }
+
+  &--titre3 {
+    @include typo-delice;
+    font-size: 4rem;
+    margin: 6rem auto;
+    padding: 0 5px;
+  }
+  &--4 {
+    font-family: "Segoe Print", sans-serif;
+  }
+  &--titre4 {
+    @include typo-palette;
+    font-size: 4rem;
+    margin: 6rem auto;
+  }
+}
+
+.table {
+  @include table;
+  @media screen and (max-width: 600px) {
+    width: 90%;
+  }
+  &--chic1 {
+    color: $colour-chic1;
+  }
+  &--chic2 {
+    color: $colour-chic2;
+  }
+  &--chic3 {
+    color: $colour-chic3;
+  }
+}
+
+.note {
+  display: flex;
+  font-family: "Devonshire", sans-serif;
+  font-size: 4rem;
+  align-content: center;
+}
+
+.choix {
+  display: flex;
+  justify-content: space-between;
+
+  width: 85%;
+  &__deco {
+    width: 33%;
+    align-self: center;
+    height: 2rem;
+  }
+  &__food {
+    flex-basis: 88%;
+    text-align: left;
+
+    &__free {
+      flex-basis: 100%;
+    }
+  }
+  &__prix {
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: right;
+    flex-basis: 12%;
+  }
+  &__titre {
+    width: auto;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    &--appetit {
+      color: $colour-chic1;
+      background: linear-gradient(
+          to top,
+          $colour-chic1 0%,
+          $colour-chic1 10%,
+          transparent 10.01%
+        )
+        no-repeat left bottom / 0 100%;
+      transition: background-size 0.6s;
+      &:hover {
+        background-size: 100% 100%;
+      }
+    }
+    &--plaisir {
+      color: $colour-chic3;
+      background: linear-gradient(
+          to top,
+          $colour-chic3 0%,
+          $colour-chic3 10%,
+          transparent 10.01%
+        )
+        no-repeat left bottom / 0 100%;
+      transition: background-size 0.6s;
+      &:hover {
+        background-size: 100% 100%;
+      }
+    }
+    &--sucree {
+      color: $colour-chic2;
+      background: linear-gradient(
+          to top,
+          $colour-chic2 0%,
+          $colour-chic2 10%,
+          transparent 10.01%
+        )
+        no-repeat left bottom / 0 100%;
+      transition: background-size 0.6s;
+      &:hover {
+        background-size: 100% 100%;
+      }
+    }
+    background: linear-gradient(
+        to top,
+        $colour-black 0%,
+        $colour-black 10%,
+        transparent 10.01%
+      )
+      no-repeat left bottom / 0 100%;
+    transition: background-size 0.6s;
+    &:hover {
+      background-size: 100% 100%;
+    }
+  }
+}
