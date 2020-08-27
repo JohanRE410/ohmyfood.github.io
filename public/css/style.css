@@ -157,7 +157,7 @@ body {
   font-family: "Devonshire", sans-serif;
   display: flex;
   flex-direction: column;
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 .carte--2 {
   background: #ffe6fc;
@@ -226,7 +226,7 @@ body {
 .note {
   display: flex;
   font-family: "Devonshire", sans-serif;
-  font-size: 4rem;
+  font-size: 3.5rem;
   align-content: center;
 }
 
@@ -406,20 +406,14 @@ body {
 
 .menu {
   box-shadow: 0 0 3rem rgba(88, 157, 136, 0.6);
-  height: 30rem;
+  height: 35rem;
   padding: 3rem;
   margin: 3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-decoration-line: none;
-  flex-basis: 14%;
-}
-@media screen and (max-width: 1750px) {
-  .menu {
-    height: 35rem;
-    flex-basis: 23%;
-  }
+  flex-basis: 24%;
 }
 @media screen and (max-width: 992px) {
   .menu {

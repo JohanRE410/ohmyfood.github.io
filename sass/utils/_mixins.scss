@@ -92,18 +92,15 @@
 
 @mixin bloc {
   box-shadow: 0 0 $margin $colour-boxshadow;
-  height: 30rem;
+  height: 35rem;
   padding: $margin;
   margin: $margin;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-decoration-line: none;
-  flex-basis: 14%;
-  @media screen and (max-width: 1750px) {
-    height: 35rem;
-    flex-basis: 23%;
-  }
+  flex-basis: 24%;
+  
   @media screen and (max-width: 992px) {
     height: 20rem;
   }
