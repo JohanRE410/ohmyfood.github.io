@@ -54,6 +54,7 @@
   position: fixed;
   bottom: 0;
   max-width: 1920px;
+  min-width: 320px;
   margin-top: 1rem;
 }
 
@@ -92,19 +93,19 @@
 
 @mixin bloc {
   box-shadow: 0 0 $margin $colour-boxshadow;
-  height: 35rem;
+  height: 40rem;
   padding: $margin;
   margin: $margin;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-decoration-line: none;
-  flex-basis: 24%;  
+  flex-basis: 30%;
   @media screen and (max-width: 992px) {
     height: 20rem;
   }
   @media screen and (max-width: 768px) {
-    flex-basis: 60%;
+    flex-basis: 65%;
     height: 30rem;
   }
 }
